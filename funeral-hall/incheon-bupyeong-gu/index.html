@@ -2,20 +2,15 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>부평구 장례식장 비용 (인천) | 빈소·시설 비교 - 서로이음상조</title>
 
   <meta name="description"
-        content="인천 부평구 장례식장의 위치, 빈소, 주차, 시설과 장례비용을 비교해보세요. 장례상담 및 장례접수는 서로이음상조 1666-2728에서 365일 24시간 가능합니다.">
+        content="인천 부평구 장례식장의 빈소, 주차, 안치시설, 이용료와 장례 준비 정보를 비교해보세요. 서로이음상조 장례상담 및 장례접수 1666-2728, 365일 24시간 가능합니다.">
 
   <style>
-
-    *{
-      box-sizing:border-box;
-    }
+    *{box-sizing:border-box}
 
     body{
       margin:0;
@@ -25,11 +20,7 @@
       line-height:1.65;
     }
 
-    a{
-      text-decoration:none;
-    }
-
-    /* 상단 */
+    a{text-decoration:none}
 
     .top-contact{
       background:#081d32;
@@ -79,10 +70,8 @@
       font-size:14px;
     }
 
-    /* 제목 */
-
     .hero{
-      background:white;
+      background:#fff;
       border-top:1px solid #eee;
       border-bottom:1px solid #ddd;
     }
@@ -104,8 +93,6 @@
       color:#666;
     }
 
-    /* 상담 영역 */
-
     .consult-box{
       max-width:1180px;
       margin:25px auto 0;
@@ -114,29 +101,22 @@
 
     .consult-inner{
       background:#102a43;
-      color:white;
+      color:#fff;
       padding:23px 25px;
       border-radius:12px;
       display:flex;
-      align-items:center;
       justify-content:space-between;
+      align-items:center;
       gap:20px;
     }
 
-    .consult-inner strong{
-      font-size:20px;
-    }
-
-    .consult-inner p{
-      margin:4px 0 0;
-      color:#d8e1e9;
-      font-size:14px;
-    }
+    .consult-inner strong{font-size:20px}
+    .consult-inner p{margin:4px 0 0;color:#d8e1e9;font-size:14px}
 
     .consult-btn{
       border:0;
       background:#1d63e9;
-      color:white;
+      color:#fff;
       font-weight:700;
       padding:14px 25px;
       border-radius:9px;
@@ -145,18 +125,14 @@
       white-space:nowrap;
     }
 
-    /* 본문 */
-
     .container{
       max-width:1180px;
       margin:30px auto;
       padding:0 20px;
     }
 
-    .summary,
-    .funeral-card,
-    .guide{
-      background:white;
+    .summary,.funeral-card,.guide{
+      background:#fff;
       border:1px solid #dedede;
       border-radius:12px;
     }
@@ -166,9 +142,7 @@
       margin-bottom:25px;
     }
 
-    .summary strong{
-      font-size:20px;
-    }
+    .summary strong{font-size:20px}
 
     .section-title{
       font-size:25px;
@@ -177,7 +151,7 @@
 
     .funeral-card{
       padding:25px;
-      margin-bottom:18px;
+      margin-bottom:20px;
     }
 
     .funeral-card h3{
@@ -213,6 +187,7 @@
     .price-table{
       width:100%;
       border-collapse:collapse;
+      margin-top:15px;
     }
 
     .price-table th,
@@ -224,6 +199,26 @@
 
     .price-table th{
       background:#fafafa;
+    }
+
+    .estimate-box{
+      margin-top:18px;
+      padding:18px;
+      border-radius:10px;
+      background:#f6f9ff;
+      border:1px solid #dbe6fb;
+    }
+
+    .estimate-box strong{
+      display:block;
+      margin-bottom:8px;
+      font-size:18px;
+    }
+
+    .estimate-note{
+      color:#666;
+      font-size:13px;
+      margin-top:8px;
     }
 
     .detail-btn{
@@ -240,9 +235,7 @@
       margin-top:25px;
     }
 
-    .guide h2{
-      margin-top:0;
-    }
+    .guide h2{margin-top:0}
 
     .notice{
       margin-top:25px;
@@ -252,8 +245,6 @@
       border-radius:8px;
       font-size:14px;
     }
-
-    /* 하단 */
 
     footer{
       margin-top:60px;
@@ -275,16 +266,12 @@
       margin-bottom:17px;
     }
 
-    .footer-inner p{
-      margin:5px 0;
-    }
+    .footer-inner p{margin:5px 0}
 
     .footer-phone{
       color:#fff;
       font-weight:700;
     }
-
-    /* 팝업 */
 
     .modal{
       display:none;
@@ -303,7 +290,7 @@
     .modal-box{
       width:100%;
       max-width:390px;
-      background:white;
+      background:#fff;
       border-radius:18px;
       padding:30px 22px 22px;
       text-align:center;
@@ -335,7 +322,7 @@
     .modal-call{
       display:block;
       background:#1d63e9;
-      color:white;
+      color:#fff;
       padding:14px;
       border-radius:10px;
       font-weight:700;
@@ -349,196 +336,107 @@
       cursor:pointer;
     }
 
-    /* 모바일 */
-
     @media(max-width:800px){
-
-      nav{
-        display:none;
-      }
-
-      .hero h1{
-        font-size:27px;
-      }
-
-      .info-grid{
-        grid-template-columns:repeat(2,1fr);
-      }
-
-      .consult-inner{
-        display:block;
-      }
-
-      .consult-btn{
-        width:100%;
-        margin-top:15px;
-      }
-
+      nav{display:none}
+      .hero h1{font-size:27px}
+      .info-grid{grid-template-columns:repeat(2,1fr)}
+      .consult-inner{display:block}
+      .consult-btn{width:100%;margin-top:15px}
     }
-
   </style>
 </head>
 
-
 <body>
 
-
 <div class="top-contact">
-
   장례상담 및 장례접수 365일 24시간 가능
-
-  <a href="tel:16662728">
-    ☎ 1666-2728
-  </a>
-
+  <a href="tel:16662728">☎ 1666-2728</a>
 </div>
-
 
 <header>
-
   <div class="header-inner">
-
-    <a class="logo" href="/">
-      서로이음상조
-    </a>
+    <a class="logo" href="/">서로이음상조</a>
 
     <nav>
-
-      <a href="/">
-        홈
-      </a>
-
-      <a href="#">
-        장례식장 찾기
-      </a>
-
-      <a href="#">
-        장례비용
-      </a>
-
-      <a href="#">
-        장례절차
-      </a>
-
+      <a href="/">홈</a>
+      <a href="#">장례식장 찾기</a>
+      <a href="#">장례비용</a>
+      <a href="#">장례절차</a>
     </nav>
-
   </div>
-
 </header>
 
-
 <div class="breadcrumb">
-
   홈 &gt; 인천 장례식장 &gt; 부평구 장례식장
-
 </div>
 
-
 <section class="hero">
-
   <div class="hero-inner">
-
-    <h1>
-      부평구 장례식장 비용 (인천) — 빈소·시설 비교
-    </h1>
-
+    <h1>부평구 장례식장 비용 (인천) — 빈소·시설 비교</h1>
     <p>
-      인천 부평구 장례식장의 위치, 빈소, 주차,
-      시설과 주요 비용 정보를 비교해보세요.
+      인천 부평구 장례식장의 위치, 빈소, 주차, 안치시설과 주요 이용료를 비교해보세요.
     </p>
-
   </div>
-
 </section>
-
 
 <section class="consult-box">
-
   <div class="consult-inner">
-
     <div>
-
-      <strong>
-        장례 발생으로 도움이 필요하신가요?
-      </strong>
-
-      <p>
-        서로이음상조 장례상담 및 장례접수는
-        365일 24시간 가능합니다.
-      </p>
-
+      <strong>장례 발생으로 도움이 필요하신가요?</strong>
+      <p>서로이음상조 장례상담 및 장례접수는 365일 24시간 가능합니다.</p>
     </div>
 
-    <button class="consult-btn"
-            onclick="openConsultModal()">
-
+    <button class="consult-btn" onclick="openConsultModal()">
       무료 상담받기
-
     </button>
-
   </div>
-
 </section>
-
 
 <main class="container">
 
-
   <section class="summary">
-
-    <strong>
-      부평구 장례식장 비교
-    </strong>
-
+    <strong>부평구 장례식장 3곳 비교</strong>
     <p>
-      장례식장을 선택할 때는 가까운 거리뿐 아니라
-      빈소 규모, 예상 조문객, 주차,
-      음식비와 주요 시설을 함께 확인하는 것이 좋습니다.
+      장례식장은 거리만 보는 것보다 빈소 크기, 예상 조문객, 주차,
+      안치시설, 음식비와 시설 이용료를 함께 확인하는 것이 좋습니다.
     </p>
-
   </section>
 
+  <h2 class="section-title">부평구 장례식장</h2>
 
-  <h2 class="section-title">
-    부평구 장례식장
-  </h2>
-
+  <!-- 1. 근로복지공단 인천병원장례식장 -->
 
   <article class="funeral-card">
 
-    <h3>
-      부평구 장례식장 예시 1
-    </h3>
+    <h3>근로복지공단 인천병원장례식장</h3>
 
     <div class="address">
-      인천광역시 부평구
+      인천광역시 부평구 무네미로 446
     </div>
-
 
     <div class="info-grid">
 
       <div class="info-box">
         <span>빈소</span>
-        <strong>정보 준비중</strong>
+        <strong>3개</strong>
+      </div>
+
+      <div class="info-box">
+        <span>안치능력</span>
+        <strong>6구</strong>
       </div>
 
       <div class="info-box">
         <span>주차</span>
-        <strong>정보 준비중</strong>
+        <strong>400대</strong>
       </div>
 
       <div class="info-box">
-        <span>안치시설</span>
-        <strong>정보 준비중</strong>
-      </div>
-
-      <div class="info-box">
-        <span>전화</span>
-        <strong>정보 준비중</strong>
+        <span>지역</span>
+        <strong>부평구 구산동</strong>
       </div>
 
     </div>
-
 
     <table class="price-table">
 
@@ -548,85 +446,227 @@
       </tr>
 
       <tr>
-        <td>빈소</td>
-        <td>정보 확인 후 업데이트</td>
+        <td>일반 빈소</td>
+        <td>1일 480,000원</td>
+      </tr>
+
+      <tr>
+        <td>특실</td>
+        <td>1일 624,000원</td>
+      </tr>
+
+      <tr>
+        <td>안치실</td>
+        <td>1일 60,000원</td>
       </tr>
 
       <tr>
         <td>입관 관련 시설</td>
-        <td>정보 확인 후 업데이트</td>
-      </tr>
-
-      <tr>
-        <td>기타 시설</td>
-        <td>정보 확인 후 업데이트</td>
+        <td>1회 300,000원</td>
       </tr>
 
     </table>
 
+    <div class="estimate-box">
+      <strong>예상 장례비용 확인 기준</strong>
+      조문객 수, 빈소 선택, 음식 주문량에 따라 실제 장례비용은 달라집니다.
+      <div class="estimate-note">
+        다음 단계에서 조문객 50명 / 3일장 / 서로이음상조 상품 기준 예상 총액을 연결할 예정입니다.
+      </div>
+    </div>
 
     <a class="detail-btn" href="#">
-      장례식장 상세정보
+      상세정보 보기
     </a>
 
   </article>
 
+  <!-- 2. 인천성모장례식장 -->
+
+  <article class="funeral-card">
+
+    <h3>인천성모장례식장</h3>
+
+    <div class="address">
+      인천광역시 부평구 동수로 56
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-box">
+        <span>시설형태</span>
+        <strong>병원 장례식장</strong>
+      </div>
+
+      <div class="info-box">
+        <span>위치</span>
+        <strong>부평구</strong>
+      </div>
+
+      <div class="info-box">
+        <span>대표전화</span>
+        <strong>1544-9004</strong>
+      </div>
+
+      <div class="info-box">
+        <span>운영</span>
+        <strong>장례식장 운영</strong>
+      </div>
+
+    </div>
+
+    <table class="price-table">
+
+      <tr>
+        <th>항목</th>
+        <th>안내</th>
+      </tr>
+
+      <tr>
+        <td>빈소</td>
+        <td>호실별 규모와 비용이 다름</td>
+      </tr>
+
+      <tr>
+        <td>주차</td>
+        <td>병원 주차시설 이용</td>
+      </tr>
+
+      <tr>
+        <td>시설 이용료</td>
+        <td>호실 및 이용시간에 따라 달라질 수 있음</td>
+      </tr>
+
+    </table>
+
+    <div class="estimate-box">
+      <strong>예상 총비용은 조건별로 계산</strong>
+      빈소 크기, 음식 주문량, 이용시간, 상조상품에 따라 총비용이 달라집니다.
+    </div>
+
+    <a class="detail-btn" href="#">
+      상세정보 보기
+    </a>
+
+  </article>
+
+  <!-- 3. 세림병원장례식장 -->
+
+  <article class="funeral-card">
+
+    <h3>세림병원장례식장</h3>
+
+    <div class="address">
+      인천광역시 부평구 부평대로 175
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-box">
+        <span>빈소</span>
+        <strong>7실</strong>
+      </div>
+
+      <div class="info-box">
+        <span>안치능력</span>
+        <strong>12구</strong>
+      </div>
+
+      <div class="info-box">
+        <span>주차</span>
+        <strong>70대</strong>
+      </div>
+
+      <div class="info-box">
+        <span>대표전화</span>
+        <strong>032-523-8844</strong>
+      </div>
+
+    </div>
+
+    <table class="price-table">
+
+      <tr>
+        <th>빈소 규모</th>
+        <th>1일 사용료</th>
+      </tr>
+
+      <tr>
+        <td>30평</td>
+        <td>480,000원</td>
+      </tr>
+
+      <tr>
+        <td>40평</td>
+        <td>528,000원</td>
+      </tr>
+
+      <tr>
+        <td>50평</td>
+        <td>600,000원</td>
+      </tr>
+
+      <tr>
+        <td>60평</td>
+        <td>720,000원</td>
+      </tr>
+
+      <tr>
+        <td>80평</td>
+        <td>960,000원</td>
+      </tr>
+
+    </table>
+
+    <div class="estimate-box">
+      <strong>운영시간</strong>
+      24시간 연중무휴
+      <div class="estimate-note">
+        빈소 선택과 실제 사용시간에 따라 비용은 달라질 수 있습니다.
+      </div>
+    </div>
+
+    <a class="detail-btn" href="#">
+      상세정보 보기
+    </a>
+
+  </article>
 
   <section class="guide">
 
-    <h2>
-      부평구 장례식장을 선택할 때 확인할 사항
-    </h2>
+    <h2>부평구 장례식장을 선택할 때 확인할 사항</h2>
 
     <ol>
-
-      <li>
-        예상 조문객에 맞는 빈소 규모인지 확인합니다.
-      </li>
-
-      <li>
-        가족과 조문객을 위한 주차 공간을 확인합니다.
-      </li>
-
-      <li>
-        빈소뿐 아니라 음식비와 시설 이용료를 함께 확인합니다.
-      </li>
-
-      <li>
-        발인 후 이용할 화장장까지의 이동 동선을 확인합니다.
-      </li>
-
+      <li>예상 조문객에 맞는 빈소 규모인지 확인합니다.</li>
+      <li>가족과 조문객을 위한 주차 공간을 확인합니다.</li>
+      <li>빈소료 외에도 음식비, 안치실, 입관 관련 시설비를 함께 확인합니다.</li>
+      <li>발인 후 이용할 화장장까지 이동 동선도 함께 확인합니다.</li>
     </ol>
 
   </section>
 
-
   <section class="guide">
 
-    <h2>
-      장례식장 비용과 상조서비스 비용은 다릅니다
-    </h2>
+    <h2>장례식장 비용과 상조서비스 비용은 다릅니다</h2>
 
     <p>
-      장례식장에서 발생하는 빈소, 음식, 시설 이용료와
-      상조회사에서 제공하는 관, 수의, 상복, 차량,
-      장례지도사 등의 서비스 비용은 서로 다른 항목입니다.
+      장례식장에서 발생하는 빈소, 음식, 안치실, 입관 관련 시설 등의 비용과
+      상조회사에서 제공하는 관, 수의, 상복, 차량, 장례지도사 등의 서비스 비용은
+      서로 다른 항목입니다.
+    </p>
+
+    <p>
+      전체 장례비용을 비교할 때는 두 비용을 나누어 확인해야 실제 부담액을 더 정확하게 파악할 수 있습니다.
     </p>
 
   </section>
 
-
   <div class="notice">
-
-    ※ 표시된 시설 및 비용 정보는 실제 이용 시점,
-    이용 조건 등에 따라 달라질 수 있으므로
-    이용 전 최신 정보를 확인하시기 바랍니다.
-
+    ※ 장례식장 시설과 이용료는 변경될 수 있습니다.
+    실제 이용 전 해당 장례식장 또는 상담을 통해 최신 정보를 확인하시기 바랍니다.
   </div>
 
-
 </main>
-
 
 <footer>
 
@@ -636,44 +676,26 @@
       서로이음상조
     </div>
 
-    <p>
-      사이트명 서로이음상조 | 대표 고미영
-    </p>
-
-    <p>
-      사업자명 서로이음상조
-    </p>
-
+    <p>사이트명 서로이음상조 | 대표 고미영</p>
+    <p>사업자명 서로이음상조</p>
     <p>
       사업자등록번호 176-96-01560 |
       통신판매업 제 2024-인천서구-2045 호
     </p>
-
     <p>
       대표번호
-      <a class="footer-phone"
-         href="tel:16662728">
+      <a class="footer-phone" href="tel:16662728">
         1666-2728
       </a>
       |
       팩스 0504-432-3979
     </p>
-
-    <p>
-      주소 인천광역시 서해구 연희로42번길 11 2층
-    </p>
-
-    <p>
-      개인정보 책임관리자 박종찬
-    </p>
+    <p>주소 인천광역시 서해구 연희로42번길 11 2층</p>
+    <p>개인정보 책임관리자 박종찬</p>
 
   </div>
 
 </footer>
-
-
-
-<!-- 상담 팝업 -->
 
 <div id="consultModal"
      class="modal"
@@ -681,80 +703,49 @@
 
   <div class="modal-box">
 
-    <h2>
-      상담 및 긴급장례 접수 안내
-    </h2>
+    <h2>상담 및 긴급장례 접수 안내</h2>
 
-    <p>
-      장례상담 · 장례접수
-    </p>
-
-    <p>
-      365일 24시간 접수 가능
-    </p>
-
+    <p>장례상담 · 장례접수</p>
+    <p>365일 24시간 접수 가능</p>
 
     <a class="modal-phone"
        href="tel:16662728">
-
       ☎ 1666-2728
-
     </a>
-
 
     <a class="modal-call"
        href="tel:16662728">
-
       전화 연결하기
-
     </a>
-
 
     <button class="modal-close"
             onclick="closeConsultModal()">
-
       닫기
-
     </button>
 
   </div>
 
 </div>
 
-
-
 <script>
 
 function openConsultModal(){
-
   document.getElementById("consultModal").style.display="flex";
-
   document.body.style.overflow="hidden";
-
 }
-
 
 function closeConsultModal(){
-
   document.getElementById("consultModal").style.display="none";
-
   document.body.style.overflow="auto";
-
 }
 
-
 function closeOutside(event){
-
   if(event.target.id==="consultModal"){
-
     closeConsultModal();
-
   }
-
 }
 
 </script>
-
 
 </body>
 </html>
