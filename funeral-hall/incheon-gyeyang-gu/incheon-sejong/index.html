@@ -48,299 +48,369 @@
   </script>
 
   <style>
-    *{box-sizing:border-box}
-
-    body{
-      margin:0;
-      font-family:Arial,"Noto Sans KR",sans-serif;
-      color:#202124;
-      background:#f5f6f7;
-      line-height:1.65;
+    * {
+      box-sizing: border-box;
     }
 
-    a{text-decoration:none;color:inherit}
-
-    .top-contact{
-      background:#081d32;
-      color:#fff;
-      text-align:center;
-      padding:9px 15px;
-      font-size:14px;
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      color: #202124;
+      background: #f5f6f7;
+      line-height: 1.65;
     }
 
-    .top-contact a{
-      color:#ffd86b;
-      font-weight:700;
-      margin-left:8px;
+    a {
+      text-decoration: none;
+      color: inherit;
     }
 
-    header{
-      background:#102a43;
-      color:#fff;
+    .top-contact {
+      background: #081d32;
+      color: #fff;
+      text-align: center;
+      padding: 9px 15px;
+      font-size: 14px;
     }
 
-    .header-inner{
-      max-width:1180px;
-      margin:auto;
-      padding:18px 20px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
+    .top-contact a {
+      color: #ffd86b;
+      font-weight: 700;
+      margin-left: 8px;
     }
 
-    .logo{
-      color:#fff;
-      font-size:23px;
-      font-weight:700;
+    header {
+      background: #102a43;
+      color: #fff;
     }
 
-    nav a{
-      color:#fff;
-      margin-left:24px;
-      font-size:14px;
+    .header-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .breadcrumb{
-      max-width:1180px;
-      margin:auto;
-      padding:18px 20px;
-      color:#777;
-      font-size:14px;
+    .logo {
+      color: #fff;
+      font-size: 23px;
+      font-weight: 700;
     }
 
-    .breadcrumb a{
-      color:#555;
+    nav a {
+      color: #fff;
+      margin-left: 24px;
+      font-size: 14px;
     }
 
-    .breadcrumb a:hover{
-      text-decoration:underline;
+    nav a:hover {
+      text-decoration: underline;
     }
 
-    .hero{
-      background:#fff;
-      border-top:1px solid #eee;
-      border-bottom:1px solid #ddd;
+    .breadcrumb {
+      max-width: 1180px;
+      margin: auto;
+      padding: 18px 20px;
+      color: #777;
+      font-size: 14px;
     }
 
-    .hero-inner{
-      max-width:1180px;
-      margin:auto;
-      padding:42px 20px;
+    .breadcrumb a {
+      color: #555;
     }
 
-    .hero h1{
-      margin:0 0 10px;
-      font-size:34px;
-      letter-spacing:-1px;
+    .breadcrumb a:hover {
+      text-decoration: underline;
     }
 
-    .hero p{
-      margin:0;
-      color:#666;
+    .hero {
+      background: #fff;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #ddd;
     }
 
-    .hero-image{
-      max-width:1180px;
-      margin:30px auto 0;
-      padding:0 20px;
+    .hero-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 42px 20px;
     }
 
-    .hero-image img{
-      width:100%;
-      height:420px;
-      object-fit:cover;
-      border-radius:14px;
-      display:block;
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -1px;
     }
 
-    .container{
-      max-width:1180px;
-      margin:30px auto;
-      padding:0 20px;
+    .hero p {
+      margin: 0;
+      color: #666;
     }
 
-    .back-btn{
-      display:inline-block;
-      background:#eef2f5;
-      color:#222;
-      padding:11px 18px;
-      border-radius:8px;
-      margin-bottom:25px;
+    .hero-image {
+      max-width: 1180px;
+      margin: 30px auto 0;
+      padding: 0 20px;
     }
 
-    .info-grid{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:12px;
-      margin-bottom:25px;
+    .hero-image img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 14px;
+      display: block;
     }
 
-    .info-box{
-      background:#fff;
-      border:1px solid #dedede;
-      border-radius:10px;
-      padding:18px;
+    .container {
+      max-width: 1180px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
 
-    .info-box span{
-      display:block;
-      color:#777;
-      font-size:13px;
-      margin-bottom:5px;
+    .back-btn {
+      display: inline-block;
+      background: #eef2f5;
+      color: #222;
+      padding: 11px 18px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      font-weight: 700;
     }
 
-    .consult-box{
-      background:#102a43;
-      color:#fff;
-      border-radius:12px;
-      padding:24px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:20px;
-      margin-bottom:25px;
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 25px;
     }
 
-    .consult-btn{
-      border:0;
-      background:#1d63e9;
-      color:#fff;
-      padding:14px 24px;
-      border-radius:9px;
-      font-weight:700;
-      cursor:pointer;
+    .info-box {
+      background: #fff;
+      border: 1px solid #dedede;
+      border-radius: 10px;
+      padding: 18px;
     }
 
-    .section{
-      background:#fff;
-      border:1px solid #dedede;
-      border-radius:12px;
-      padding:26px;
-      margin-bottom:22px;
+    .info-box span {
+      display: block;
+      color: #777;
+      font-size: 13px;
+      margin-bottom: 5px;
     }
 
-    .section h2{
-      margin-top:0;
-      font-size:24px;
+    .section {
+      background: #fff;
+      border: 1px solid #dedede;
+      border-radius: 12px;
+      padding: 26px;
+      margin-bottom: 22px;
     }
 
-    table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:15px;
+    .section h2 {
+      margin-top: 0;
+      color: #102a43;
+      font-size: 24px;
     }
 
-    th,td{
-      border-bottom:1px solid #eee;
-      padding:12px 10px;
-      text-align:left;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
     }
 
-    th{
-      background:#fafafa;
+    th,
+    td {
+      border-bottom: 1px solid #eee;
+      padding: 12px 10px;
+      text-align: left;
     }
 
-    .notice{
-      background:#fffbea;
-      border:1px solid #f0df9b;
-      padding:17px;
-      border-radius:8px;
-      font-size:14px;
-      margin-bottom:22px;
+    th {
+      background: #fafafa;
     }
 
-    footer{
-      margin-top:60px;
-      padding:42px 20px;
-      background:#1d1f22;
-      color:#b9bec5;
-      font-size:13px;
+    .notice {
+      background: #fffbea;
+      border: 1px solid #f0df9b;
+      padding: 17px;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 22px;
     }
 
-    .footer-inner{
-      max-width:1180px;
-      margin:auto;
+    .related-box {
+      margin-top: 25px;
+      margin-bottom: 22px;
+      padding: 25px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
     }
 
-    .footer-title{
-      color:#fff;
-      font-size:20px;
-      font-weight:700;
-      margin-bottom:15px;
+    .related-box h2 {
+      margin-top: 0;
+      color: #102f4f;
+      font-size: 23px;
     }
 
-    .footer-inner p{margin:5px 0}
-
-    .footer-phone{
-      color:#fff;
-      font-weight:700;
+    .related-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 11px 18px;
+      background: #eef2f5;
+      border-radius: 8px;
+      color: #102f4f;
+      font-weight: 700;
     }
 
-    .modal{
-      display:none;
-      position:fixed;
-      z-index:9999;
-      inset:0;
-      background:rgba(0,0,0,.55);
-      align-items:center;
-      justify-content:center;
-      padding:20px;
+    .consult-box {
+      background: #102a43;
+      color: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 25px;
     }
 
-    .modal-box{
-      width:100%;
-      max-width:390px;
-      background:#fff;
-      border-radius:18px;
-      padding:30px 22px 22px;
-      text-align:center;
+    .consult-btn {
+      border: 0;
+      background: #1d63e9;
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 9px;
+      font-weight: 700;
+      cursor: pointer;
     }
 
-    .modal-phone{
-      display:block;
-      margin:20px 0 15px;
-      padding:17px;
-      background:#f2f4f7;
-      border-radius:12px;
-      color:#222;
-      font-size:25px;
-      font-weight:700;
+    footer {
+      margin-top: 60px;
+      padding: 42px 20px;
+      background: #1d1f22;
+      color: #b9bec5;
+      font-size: 13px;
     }
 
-    .modal-call{
-      display:block;
-      background:#1d63e9;
-      color:#fff;
-      padding:14px;
-      border-radius:10px;
-      font-weight:700;
+    .footer-inner {
+      max-width: 1180px;
+      margin: auto;
     }
 
-    .modal-product{
-      display:block;
-      margin-top:10px;
-      background:#102a43;
-      color:#fff;
-      padding:14px;
-      border-radius:10px;
-      font-weight:700;
+    .footer-title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
     }
 
-    .modal-close{
-      margin-top:10px;
-      border:0;
-      background:transparent;
-      color:#777;
-      cursor:pointer;
+    .footer-inner p {
+      margin: 5px 0;
     }
 
-    @media(max-width:800px){
-      nav{display:none}
-      .hero h1{font-size:27px}
-      .hero-image img{height:300px}
-      .info-grid{grid-template-columns:repeat(2,1fr)}
-      .consult-box{display:block}
-      .consult-btn{width:100%;margin-top:15px}
+    .footer-phone {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-box {
+      width: 100%;
+      max-width: 390px;
+      background: #fff;
+      border-radius: 18px;
+      padding: 30px 22px 22px;
+      text-align: center;
+    }
+
+    .modal-box h2 {
+      margin-top: 0;
+      color: #102a43;
+    }
+
+    .modal-phone {
+      display: block;
+      margin: 20px 0 15px;
+      padding: 17px;
+      background: #f2f4f7;
+      border-radius: 12px;
+      color: #222;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .modal-call,
+    .modal-product {
+      display: block;
+      color: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    .modal-call {
+      background: #1d63e9;
+    }
+
+    .modal-product {
+      background: #c9a227;
+    }
+
+    .modal-close {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      border: 0;
+      border-radius: 10px;
+      background: #eef0f2;
+      color: #555;
+      cursor: pointer;
+    }
+
+    @media (max-width: 800px) {
+      nav {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 27px;
+      }
+
+      .hero-image img {
+        height: 300px;
+      }
+
+      .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .consult-box {
+        display: block;
+      }
+
+      .consult-btn {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -371,16 +441,15 @@
 
 <div class="breadcrumb">
   <a href="/">홈</a>
-  &gt;
+  &nbsp;›&nbsp;
   <a href="/funeral-hall/incheon/">인천 장례식장</a>
-  &gt;
+  &nbsp;›&nbsp;
   <a href="/funeral-hall/incheon-gyeyang-gu/">계양구 장례식장</a>
-  &gt;
+  &nbsp;›&nbsp;
   인천세종병원장례식장
 </div>
 
 <section class="hero">
-
   <div class="hero-inner">
 
     <h1>인천세종병원장례식장 정보·비용 안내</h1>
@@ -390,16 +459,13 @@
     </p>
 
   </div>
-
 </section>
 
 <section class="hero-image">
-
   <img
     src="/images/incheon-sejong.png"
     alt="인천 계양구 인천세종병원장례식장 외관"
   >
-
 </section>
 
 <main class="container">
@@ -430,20 +496,6 @@
       <span>주차</span>
       <strong>약 400대</strong>
     </div>
-
-  </section>
-
-  <section class="consult-box">
-
-    <div>
-      <strong>빈소 확인이나 장례접수가 필요하신가요?</strong>
-      <div>서로이음상조 장례상담은 365일 24시간 가능합니다.</div>
-    </div>
-
-    <button class="consult-btn"
-            onclick="openConsultModal()">
-      무료 상담받기
-    </button>
 
   </section>
 
@@ -577,9 +629,9 @@
     <h2>장례식장 비용과 상조서비스 비용은 별도입니다</h2>
 
     <p>
-      장례식장에서 발생하는 빈소, 안치실, 입관 관련 시설, 음식,
-      제단장식 등의 비용과 상조회사에서 제공하는 관, 수의, 상복,
-      차량, 장례지도사 등의 서비스 비용은 서로 다른 항목입니다.
+      장례식장에서 발생하는 빈소, 안치실, 입관 관련 시설,
+      음식, 제단장식 등의 비용과 상조회사에서 제공하는 관,
+      수의, 상복, 차량, 장례지도사 등의 서비스 비용은 서로 다른 항목입니다.
     </p>
 
     <p>
@@ -588,7 +640,7 @@
 
   </section>
 
-  <section class="section">
+  <section class="related-box">
 
     <h2>계양구 장례식장 함께 확인하기</h2>
 
@@ -597,7 +649,7 @@
       위치와 이용 정보를 비교하려면 계양구 장례식장 비교페이지를 확인해보세요.
     </p>
 
-    <a class="back-btn"
+    <a class="related-link"
        href="/funeral-hall/incheon-gyeyang-gu/">
       계양구 장례식장 정보·비용 비교
     </a>
@@ -610,13 +662,30 @@
     장례 진행 전 최신 정보를 확인하시기 바랍니다.
   </div>
 
+  <section class="consult-box">
+
+    <div>
+      <strong>빈소 확인이나 장례접수가 필요하신가요?</strong>
+      <div>
+        서로이음상조 장례상담은 365일 24시간 가능합니다.
+      </div>
+    </div>
+
+    <button class="consult-btn"
+            onclick="openConsultModal()">
+      무료 상담받기
+    </button>
+
+  </section>
+
 </main>
 
 <footer>
-
   <div class="footer-inner">
 
-    <div class="footer-title">서로이음상조</div>
+    <div class="footer-title">
+      서로이음상조
+    </div>
 
     <p>사이트명 서로이음상조 | 대표 고미영</p>
     <p>사업자명 서로이음상조</p>
@@ -636,16 +705,23 @@
       팩스 0504-432-3979
     </p>
 
-    <p>주소 인천광역시 서해구 연희로42번길 11 2층</p>
-    <p>개인정보 책임관리자 박종찬</p>
+    <p>
+      주소 인천광역시 서해구 연희로42번길 11 2층
+    </p>
+
+    <p>
+      개인정보 책임관리자 박종찬
+    </p>
+
+    <p>
+      장례상담 및 접수 365일 24시간 가능
+    </p>
 
   </div>
-
 </footer>
 
 <div id="consultModal"
-     class="modal"
-     onclick="closeOutside(event)">
+     class="modal">
 
   <div class="modal-box">
 
@@ -664,40 +740,41 @@
       전화 연결하기
     </a>
 
-    <a class="modal-product"
-       href="https://xn--2o2bo7m0hp2tyf39c.kr/package-99"
-       target="_blank"
-       rel="noopener">
+    <a
+      class="modal-product"
+      href="https://xn--2o2bo7m0hp2tyf39c.kr/package-99"
+      target="_blank"
+      rel="noopener">
       상품 확인하기
     </a>
 
-    <button class="modal-close"
-            onclick="closeConsultModal()">
+    <button
+      class="modal-close"
+      onclick="closeConsultModal()">
       닫기
     </button>
 
   </div>
-
 </div>
 
 <script>
-
-function openConsultModal(){
-  document.getElementById("consultModal").style.display="flex";
-  document.body.style.overflow="hidden";
+function openConsultModal() {
+  document.getElementById("consultModal").style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
-function closeConsultModal(){
-  document.getElementById("consultModal").style.display="none";
-  document.body.style.overflow="auto";
+function closeConsultModal() {
+  document.getElementById("consultModal").style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
-function closeOutside(event){
-  if(event.target.id==="consultModal"){
+window.onclick = function(event) {
+  const modal = document.getElementById("consultModal");
+
+  if (event.target === modal) {
     closeConsultModal();
   }
 }
-
 </script>
 
 </body>
