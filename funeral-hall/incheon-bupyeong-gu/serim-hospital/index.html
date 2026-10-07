@@ -48,306 +48,407 @@
   </script>
 
   <style>
-    *{box-sizing:border-box}
-
-    body{
-      margin:0;
-      font-family:Arial,"Noto Sans KR",sans-serif;
-      color:#202124;
-      background:#f5f6f7;
-      line-height:1.65;
+    * {
+      box-sizing: border-box;
     }
 
-    a{text-decoration:none}
-
-    .top-contact{
-      background:#081d32;
-      color:#fff;
-      text-align:center;
-      padding:9px 15px;
-      font-size:14px;
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      color: #202124;
+      background: #f5f6f7;
+      line-height: 1.65;
     }
 
-    .top-contact a{
-      color:#ffd86b;
-      font-weight:700;
-      margin-left:8px;
+    a {
+      text-decoration: none;
+      color: inherit;
     }
 
-    header{
-      background:#102a43;
-      color:#fff;
+    .top-contact {
+      background: #081d32;
+      color: #fff;
+      text-align: center;
+      padding: 9px 15px;
+      font-size: 14px;
     }
 
-    .header-inner{
-      max-width:1180px;
-      margin:auto;
-      padding:18px 20px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
+    .top-contact a {
+      color: #ffd86b;
+      font-weight: 700;
+      margin-left: 8px;
     }
 
-    .logo{
-      color:#fff;
-      font-size:23px;
-      font-weight:700;
+    header {
+      background: #102a43;
+      color: #fff;
     }
 
-    nav a{
-      color:#fff;
-      margin-left:24px;
-      font-size:14px;
+    .header-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .breadcrumb{
-      max-width:1180px;
-      margin:auto;
-      padding:18px 20px;
-      color:#777;
-      font-size:14px;
+    .logo {
+      color: #fff;
+      font-size: 23px;
+      font-weight: 700;
     }
 
-    .breadcrumb a{
-      color:#555;
+    nav a {
+      color: #fff;
+      margin-left: 24px;
+      font-size: 14px;
     }
 
-    .breadcrumb a:hover{
-      text-decoration:underline;
+    nav a:hover {
+      text-decoration: underline;
     }
 
-    .hero{
-      background:#fff;
-      border-top:1px solid #eee;
-      border-bottom:1px solid #ddd;
+    .breadcrumb {
+      max-width: 1180px;
+      margin: auto;
+      padding: 18px 20px;
+      color: #777;
+      font-size: 14px;
     }
 
-    .hero-inner{
-      max-width:1180px;
-      margin:auto;
-      padding:42px 20px;
+    .breadcrumb a {
+      color: #555;
     }
 
-    .hero h1{
-      margin:0 0 10px;
-      font-size:34px;
-      letter-spacing:-1px;
+    .breadcrumb a:hover {
+      text-decoration: underline;
     }
 
-    .hero p{
-      margin:0;
-      color:#666;
+    .hero {
+      background: #fff;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #ddd;
     }
 
-    .container{
-      max-width:1180px;
-      margin:30px auto;
-      padding:0 20px;
+    .hero-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 42px 20px;
     }
 
-    .back-btn{
-      display:inline-block;
-      background:#eef2f5;
-      color:#222;
-      padding:11px 18px;
-      border-radius:8px;
-      margin-bottom:25px;
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -1px;
     }
 
-    .info-grid{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:12px;
-      margin-bottom:25px;
+    .hero p {
+      margin: 0;
+      color: #666;
     }
 
-    .info-box{
-      background:#fff;
-      border:1px solid #dedede;
-      border-radius:10px;
-      padding:18px;
+    .hero-image {
+      max-width: 1180px;
+      margin: 30px auto 0;
+      padding: 0 20px;
     }
 
-    .info-box span{
-      display:block;
-      color:#777;
-      font-size:13px;
-      margin-bottom:5px;
+    .hero-image img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 14px;
+      display: block;
     }
 
-    .consult-box{
-      background:#102a43;
-      color:#fff;
-      border-radius:12px;
-      padding:24px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:20px;
-      margin-bottom:25px;
+    .container {
+      max-width: 1180px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
 
-    .consult-btn{
-      border:0;
-      background:#1d63e9;
-      color:#fff;
-      padding:14px 24px;
-      border-radius:9px;
-      font-weight:700;
-      cursor:pointer;
+    .back-btn {
+      display: inline-block;
+      background: #eef2f5;
+      color: #222;
+      padding: 11px 18px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      font-weight: 700;
     }
 
-    .section{
-      background:#fff;
-      border:1px solid #dedede;
-      border-radius:12px;
-      padding:26px;
-      margin-bottom:22px;
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 25px;
     }
 
-    .section h2{
-      margin-top:0;
-      font-size:24px;
+    .info-box {
+      background: #fff;
+      border: 1px solid #dedede;
+      border-radius: 10px;
+      padding: 18px;
     }
 
-    table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:15px;
+    .info-box span {
+      display: block;
+      color: #777;
+      font-size: 13px;
+      margin-bottom: 5px;
     }
 
-    th,td{
-      border-bottom:1px solid #eee;
-      padding:12px 10px;
-      text-align:left;
+    .section {
+      background: #fff;
+      border: 1px solid #dedede;
+      border-radius: 12px;
+      padding: 26px;
+      margin-bottom: 22px;
     }
 
-    th{
-      background:#fafafa;
+    .section h2 {
+      margin-top: 0;
+      color: #102a43;
+      font-size: 24px;
     }
 
-    .estimate{
-      background:#f1f6ff;
-      border:1px solid #cdddf8;
-      border-radius:12px;
-      padding:24px;
-      margin-bottom:22px;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
     }
 
-    .estimate h2{
-      margin-top:0;
+    th,
+    td {
+      border-bottom: 1px solid #eee;
+      padding: 12px 10px;
+      text-align: left;
     }
 
-    .estimate-row{
-      display:flex;
-      justify-content:space-between;
-      padding:10px 0;
-      border-bottom:1px solid #dce6f7;
+    th {
+      background: #fafafa;
     }
 
-    .estimate-total{
-      font-size:24px;
-      font-weight:700;
-      color:#0c3d82;
-      margin-top:15px;
+    .estimate {
+      background: #f1f6ff;
+      border: 1px solid #cdddf8;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 22px;
     }
 
-    .estimate-note{
-      margin-top:14px;
-      font-size:13px;
-      color:#666;
+    .estimate h2 {
+      margin-top: 0;
+      color: #102a43;
     }
 
-    .notice{
-      background:#fffbea;
-      border:1px solid #f0df9b;
-      padding:17px;
-      border-radius:8px;
-      font-size:14px;
-      margin-bottom:22px;
+    .estimate-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 10px 0;
+      border-bottom: 1px solid #dce6f7;
     }
 
-    footer{
-      margin-top:60px;
-      padding:42px 20px;
-      background:#1d1f22;
-      color:#b9bec5;
-      font-size:13px;
+    .estimate-total {
+      font-size: 24px;
+      font-weight: 700;
+      color: #0c3d82;
+      margin-top: 15px;
     }
 
-    .footer-inner{
-      max-width:1180px;
-      margin:auto;
+    .estimate-note {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #666;
     }
 
-    .footer-title{
-      color:#fff;
-      font-size:20px;
-      font-weight:700;
-      margin-bottom:15px;
+    .notice {
+      background: #fffbea;
+      border: 1px solid #f0df9b;
+      padding: 17px;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 22px;
     }
 
-    .footer-inner p{margin:5px 0}
-
-    .footer-phone{
-      color:#fff;
-      font-weight:700;
+    .related-box {
+      margin-top: 25px;
+      margin-bottom: 22px;
+      padding: 25px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
     }
 
-    .modal{
-      display:none;
-      position:fixed;
-      z-index:9999;
-      inset:0;
-      background:rgba(0,0,0,.55);
-      align-items:center;
-      justify-content:center;
-      padding:20px;
+    .related-box h2 {
+      margin-top: 0;
+      color: #102f4f;
+      font-size: 23px;
     }
 
-    .modal-box{
-      width:100%;
-      max-width:390px;
-      background:#fff;
-      border-radius:18px;
-      padding:30px 22px 22px;
-      text-align:center;
+    .related-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 11px 18px;
+      background: #eef2f5;
+      border-radius: 8px;
+      color: #102f4f;
+      font-weight: 700;
     }
 
-    .modal-phone{
-      display:block;
-      margin:20px 0 15px;
-      padding:17px;
-      background:#f2f4f7;
-      border-radius:12px;
-      color:#222;
-      font-size:25px;
-      font-weight:700;
+    .consult-box {
+      background: #102a43;
+      color: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 25px;
     }
 
-    .modal-call{
-      display:block;
-      background:#1d63e9;
-      color:#fff;
-      padding:14px;
-      border-radius:10px;
-      font-weight:700;
+    .consult-btn {
+      border: 0;
+      background: #1d63e9;
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 9px;
+      font-weight: 700;
+      cursor: pointer;
     }
 
-    .modal-close{
-      margin-top:10px;
-      border:0;
-      background:transparent;
-      color:#777;
-      cursor:pointer;
+    footer {
+      margin-top: 60px;
+      padding: 42px 20px;
+      background: #1d1f22;
+      color: #b9bec5;
+      font-size: 13px;
     }
 
-    @media(max-width:800px){
-      nav{display:none}
-      .hero h1{font-size:27px}
-      .info-grid{grid-template-columns:repeat(2,1fr)}
-      .consult-box{display:block}
-      .consult-btn{width:100%;margin-top:15px}
+    .footer-inner {
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    .footer-title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .footer-inner p {
+      margin: 5px 0;
+    }
+
+    .footer-phone {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-box {
+      width: 100%;
+      max-width: 390px;
+      background: #fff;
+      border-radius: 18px;
+      padding: 30px 22px 22px;
+      text-align: center;
+    }
+
+    .modal-box h2 {
+      margin-top: 0;
+      color: #102a43;
+    }
+
+    .modal-phone {
+      display: block;
+      margin: 20px 0 15px;
+      padding: 17px;
+      background: #f2f4f7;
+      border-radius: 12px;
+      color: #222;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .modal-call,
+    .modal-product {
+      display: block;
+      color: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    .modal-call {
+      background: #1d63e9;
+    }
+
+    .modal-product {
+      background: #c9a227;
+    }
+
+    .modal-close {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      border: 0;
+      border-radius: 10px;
+      background: #eef0f2;
+      color: #555;
+      cursor: pointer;
+    }
+
+    @media (max-width: 800px) {
+      nav {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 27px;
+      }
+
+      .hero-image img {
+        height: 300px;
+      }
+
+      .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .consult-box {
+        display: block;
+      }
+
+      .consult-btn {
+        width: 100%;
+        margin-top: 15px;
+      }
+
+      .estimate-row {
+        display: block;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -378,42 +479,32 @@
 
 <div class="breadcrumb">
   <a href="/">홈</a>
-  &gt;
+  &nbsp;›&nbsp;
   <a href="/funeral-hall/incheon/">인천 장례식장</a>
-  &gt;
+  &nbsp;›&nbsp;
   <a href="/funeral-hall/incheon-bupyeong-gu/">부평구 장례식장</a>
-  &gt;
+  &nbsp;›&nbsp;
   부평세림병원장례식장
 </div>
 
 <section class="hero">
-
   <div class="hero-inner">
 
     <h1>부평세림병원장례식장 정보·비용 안내</h1>
 
     <p>
-      부평세림병원장례식장의 위치, 주차, 주요 시설과 예상 장례비용을 확인해보세요.
+      부평세림병원장례식장의 위치, 주차,
+      주요 시설과 예상 장례비용을 확인해보세요.
     </p>
 
   </div>
-
 </section>
 
-<section style="max-width:1180px; margin:30px auto 0; padding:0 20px;">
-
+<section class="hero-image">
   <img
     src="/images/serim-hospital.png"
-    alt="부평세림병원장례식장 외관"
-    style="
-      width:100%;
-      height:420px;
-      object-fit:cover;
-      border-radius:14px;
-      display:block;
-    "
+    alt="인천 부평구 부평세림병원장례식장 외관"
   >
-
 </section>
 
 <main class="container">
@@ -444,20 +535,6 @@
       <span>운영</span>
       <strong>24시간 연중무휴</strong>
     </div>
-
-  </section>
-
-  <section class="consult-box">
-
-    <div>
-      <strong>빈소 확인이나 장례접수가 필요하신가요?</strong>
-      <div>서로이음상조 장례상담은 365일 24시간 가능합니다.</div>
-    </div>
-
-    <button class="consult-btn"
-            onclick="openConsultModal()">
-      무료 상담받기
-    </button>
 
   </section>
 
@@ -498,11 +575,11 @@
 
   <section class="section">
 
-    <h2>장례편의서비스</h2>
+    <h2>부평세림병원장례식장 장례편의서비스</h2>
 
     <p>
-      부평세림병원장례식장에서는 장례용품, 식당, 매점, 화원,
-      상복, 장의차 등 장례 진행에 필요한 여러 편의서비스를 운영하고 있습니다.
+      부평세림병원장례식장에서는 장례용품, 식당, 매점,
+      화원, 상복, 장의차 등 장례 진행에 필요한 여러 편의서비스를 운영하고 있습니다.
     </p>
 
     <table>
@@ -566,8 +643,8 @@
 
     <div class="estimate-note">
       예시 기준에 따른 예상 금액입니다.
-      실제 비용은 빈소 크기, 음식 주문량, 이용시간, 제단장식,
-      차량 및 장지 선택 등에 따라 달라질 수 있습니다.
+      실제 비용은 빈소 크기, 음식 주문량, 이용시간,
+      제단장식, 차량 및 장지 선택 등에 따라 달라질 수 있습니다.
       화장비용과 장지비용은 별도입니다.
     </div>
 
@@ -575,7 +652,7 @@
 
   <section class="section">
 
-    <h2>주차 이용 시 확인할 점</h2>
+    <h2>부평세림병원장례식장 주차 이용 시 확인할 점</h2>
 
     <p>
       부평세림병원 및 장례식장 내외부에 주차공간이 있으며,
@@ -591,7 +668,7 @@
 
   <section class="section">
 
-    <h2>장례식장 선택 전 확인할 사항</h2>
+    <h2>부평세림병원장례식장 선택 전 확인사항</h2>
 
     <ul>
       <li>예상 조문객에 맞는 빈소가 남아 있는지 확인합니다.</li>
@@ -603,21 +680,19 @@
 
   </section>
 
-  <section class="section">
+  <section class="related-box">
 
     <h2>부평구 장례식장 함께 확인하기</h2>
 
     <p>
-      부평구 내 다른 장례식장의 위치와 이용 정보를 함께 비교하려면
-      부평구 장례식장 비교페이지를 확인해보세요.
+      부평세림병원장례식장뿐 아니라 부평구에 있는 다른 장례식장의
+      위치와 이용 정보를 비교하려면 부평구 장례식장 비교페이지를 확인해보세요.
     </p>
 
-    <p>
-      <a class="back-btn"
-         href="/funeral-hall/incheon-bupyeong-gu/">
-        부평구 장례식장 정보·비용 비교
-      </a>
-    </p>
+    <a class="related-link"
+       href="/funeral-hall/incheon-bupyeong-gu/">
+      부평구 장례식장 정보·비용 비교
+    </a>
 
   </section>
 
@@ -626,10 +701,25 @@
     장례 진행 전 최신 금액과 빈소 현황을 확인하시기 바랍니다.
   </div>
 
+  <section class="consult-box">
+
+    <div>
+      <strong>빈소 확인이나 장례접수가 필요하신가요?</strong>
+      <div>
+        서로이음상조 장례상담은 365일 24시간 가능합니다.
+      </div>
+    </div>
+
+    <button class="consult-btn"
+            onclick="openConsultModal()">
+      무료 상담받기
+    </button>
+
+  </section>
+
 </main>
 
 <footer>
-
   <div class="footer-inner">
 
     <div class="footer-title">
@@ -637,6 +727,7 @@
     </div>
 
     <p>사이트명 서로이음상조 | 대표 고미영</p>
+
     <p>사업자명 서로이음상조</p>
 
     <p>
@@ -654,16 +745,23 @@
       팩스 0504-432-3979
     </p>
 
-    <p>주소 인천광역시 서해구 연희로42번길 11 2층</p>
-    <p>개인정보 책임관리자 박종찬</p>
+    <p>
+      주소 인천광역시 서해구 연희로42번길 11 2층
+    </p>
+
+    <p>
+      개인정보 책임관리자 박종찬
+    </p>
+
+    <p>
+      장례상담 및 접수 365일 24시간 가능
+    </p>
 
   </div>
-
 </footer>
 
 <div id="consultModal"
-     class="modal"
-     onclick="closeOutside(event)">
+     class="modal">
 
   <div class="modal-box">
 
@@ -682,33 +780,41 @@
       전화 연결하기
     </a>
 
-    <button class="modal-close"
-            onclick="closeConsultModal()">
+    <a
+      class="modal-product"
+      href="https://xn--2o2bo7m0hp2tyf39c.kr/package-99"
+      target="_blank"
+      rel="noopener">
+      상품 확인하기
+    </a>
+
+    <button
+      class="modal-close"
+      onclick="closeConsultModal()">
       닫기
     </button>
 
   </div>
-
 </div>
 
 <script>
-
-function openConsultModal(){
-  document.getElementById("consultModal").style.display="flex";
-  document.body.style.overflow="hidden";
+function openConsultModal() {
+  document.getElementById("consultModal").style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
-function closeConsultModal(){
-  document.getElementById("consultModal").style.display="none";
-  document.body.style.overflow="auto";
+function closeConsultModal() {
+  document.getElementById("consultModal").style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
-function closeOutside(event){
-  if(event.target.id==="consultModal"){
+window.onclick = function(event) {
+  const modal = document.getElementById("consultModal");
+
+  if (event.target === modal) {
     closeConsultModal();
   }
 }
-
 </script>
 
 </body>
