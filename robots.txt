@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jc131121.github.io/sitemap.xml
+Sitemap: https://인천장례비용.kr/sitemap.xml
