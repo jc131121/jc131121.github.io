@@ -96,3 +96,33 @@ button,a,input,select{touch-action:manipulation}
  .topbar-inner,.top-inner{flex-wrap:wrap}
 }
 @media(prefers-reduced-motion:reduce){.btn,.hall-card,.room-card{transition:none!important}}
+
+/* Final unified hall identity, readable information architecture */
+.site-header .brand,.site-header .logo,header .brand,header .logo{display:inline-flex!important;align-items:center!important;gap:10px!important;text-decoration:none!important;min-width:0}
+.site-header .brand img,.site-header .logo img,header .brand img,header .logo img{width:70px!important;height:56px!important;max-width:70px!important;object-fit:contain!important}
+.site-header .brand:after,.site-header .logo:after,header .brand:after,header .logo:after{content:"인천장례비용.kr";display:inline-block;color:#294b40;font-size:clamp(15px,1.55vw,20px);font-weight:850;letter-spacing:-.055em;white-space:nowrap}
+.site-header .brand-fallback,.site-header .logo-fallback,header .brand-fallback,header .logo-fallback{display:none!important}
+.site-header .header-inner,header .header-inner{gap:16px!important}
+.desktop-nav{gap:clamp(9px,1.4vw,21px)!important}
+.desktop-nav a{white-space:nowrap;font-size:13px}
+.breadcrumb{background:#fbfaf6}
+.hero{min-height:260px;display:flex;align-items:center}
+.hero:after{content:"";position:absolute;pointer-events:none;right:5%;bottom:-60px;width:min(33vw,380px);height:min(33vw,380px);border-radius:50%;background:radial-gradient(circle at 48% 47%,rgba(255,255,255,.6) 0 10%,transparent 10.5%),repeating-conic-gradient(from 5deg,rgba(255,255,255,.48) 0 13deg,rgba(212,226,203,.24) 14deg 27deg,transparent 28deg 36deg);filter:blur(2px);opacity:.48;z-index:-1}
+.hero .eyebrow,.hero .hero-label{letter-spacing:.035em;font-weight:850}
+.hero h1{font-size:clamp(27px,3.7vw,44px)!important}
+.hero .btn{box-shadow:0 4px 12px rgba(41,75,64,.07)}
+.quick-item,.hall-card,.panel,.room-card,.info-box,.stat,.cost-box,.card{border:1px solid #e5e9e0!important}
+.quick-item strong,.hall-card h3,.stat strong{color:#294b40!important}
+.quick-item p,.hall-address,.small,.muted,.section-head p{color:#64766c!important}
+.hall-card{overflow:hidden}
+.hall-img{object-fit:cover}
+.hall-content{gap:6px}
+.hall-tag{border-radius:999px!important;padding:5px 11px!important}
+.room-card,.info-box{min-width:0}
+.room-card strong,.room-card b{color:#294b40}
+.price,.hall-price{font-weight:850!important}
+.compare-table th{border-bottom:1px solid #dce7d9!important}
+.consult-banner{border-radius:20px!important;padding:clamp(20px,3vw,32px)!important}
+@media(max-width:900px){.desktop-nav{gap:8px!important}.desktop-nav a{font-size:12px}.site-header .brand:after,.site-header .logo:after,header .brand:after,header .logo:after{font-size:15px}}
+@media(max-width:768px){.site-header .brand img,.site-header .logo img,header .brand img,header .logo img{width:52px!important;height:46px!important;max-width:52px!important}.site-header .brand:after,.site-header .logo:after,header .brand:after,header .logo:after{font-size:16px!important}.hero{min-height:auto}.hero:after{width:170px;height:170px;right:-25px;bottom:-20px;opacity:.25}.hall-img{height:180px!important}.hall-content{gap:5px}.quick-item{padding:17px!important}.mobile-bottom,.mobile-cta{z-index:50}.mobile-bottom a,.mobile-bottom button,.mobile-cta a,.mobile-cta button{min-height:46px}}
+@media(max-width:390px){.site-header .brand:after,.site-header .logo:after,header .brand:after,header .logo:after{font-size:14px!important}.site-header .brand img,.site-header .logo img,header .brand img,header .logo img{width:44px!important;max-width:44px!important}}
