@@ -53,3 +53,46 @@ body{font-family:"Noto Sans KR","Malgun Gothic",sans-serif!important;line-height
 footer{background:#294b40!important;color:#f5f6f0!important}
 footer a{color:#e3eedc!important}
 @media(max-width:760px){.hero:before{width:95%;right:-50%;opacity:.5}.hero h1{max-width:100%}.hero-actions,.hero-buttons{display:flex;flex-wrap:wrap}.hero-actions .btn,.hero-buttons .btn{min-height:46px}.quick-guide,.hall-grid,.cards,.stats,.cost-grid{grid-template-columns:1fr!important}.header-inner{min-height:66px}.panel{margin-bottom:18px!important}.compare-scroll,.table-wrap{max-width:100%}}
+
+/* Mobile-first legibility and touch usability, October 2026 */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:hidden}
+img,video,iframe{max-width:100%}
+button,a,input,select{touch-action:manipulation}
+@media(max-width:768px){
+ body{font-size:15px!important;line-height:1.75!important}
+ .wrap{width:100%;max-width:100%;padding-left:16px!important;padding-right:16px!important}
+ .site-header .header-inner,header .header-inner{min-height:66px!important;gap:10px!important}
+ .brand img,.logo img{max-width:110px!important;max-height:62px!important;height:auto!important}
+ .desktop-nav{display:none!important}
+ .menu-btn{display:inline-flex!important;align-items:center;justify-content:center;min-height:44px;min-width:44px}
+ .mobile-nav.open{display:flex!important;flex-direction:column;gap:0;background:#fff;border-top:1px solid #e3e9df}
+ .mobile-nav a{display:block;padding:12px 16px;min-height:44px}
+ .topbar,.top-contact{font-size:11px!important}
+ .topbar-inner,.top-inner{gap:8px}
+ .hero{padding:32px 0 36px!important}
+ .hero h1{font-size:clamp(25px,7vw,34px)!important;line-height:1.4!important;overflow-wrap:anywhere}
+ .hero p{font-size:14px!important;line-height:1.8!important}
+ .hero-actions,.hero-buttons{display:grid!important;grid-template-columns:1fr!important;gap:10px!important}
+ .hero-actions .btn,.hero-buttons .btn{width:100%!important;min-height:48px!important;text-align:center}
+ .quick-guide,.hall-grid,.cards,.stats,.cost-grid,.info-grid,.room-grid{grid-template-columns:1fr!important;gap:12px!important}
+ .panel,.section{padding:18px 16px!important;margin-bottom:16px!important}
+ .quick-item,.hall-content,.room-card,.info-box,.cost-box{padding:16px!important}
+ .section-head h2,.panel h2{font-size:clamp(20px,5.5vw,26px)!important;line-height:1.4!important}
+ .compare-scroll,.table-wrap{display:block!important;width:100%!important;max-width:100%!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch;overscroll-behavior-inline:contain}
+ table{border-collapse:collapse}
+ .compare-table th,.compare-table td,table th,table td{font-size:13px!important;padding:11px 10px!important}
+ .btn,.hall-link{min-height:46px!important}
+ .breadcrumb{font-size:12px!important;line-height:1.6}
+ .hall-img,.hero-image{max-width:100%;object-fit:cover}
+ .modal,.modal-card,.modal-box{max-width:100vw}
+ .modal-card,.modal-box{width:calc(100vw - 32px)!important;max-height:85dvh;overflow-y:auto}
+ .mobile-bottom,.mobile-cta{padding-bottom:max(8px,env(safe-area-inset-bottom))!important}
+}
+@media(max-width:380px){
+ .wrap{padding-left:13px!important;padding-right:13px!important}
+ .hero h1{font-size:25px!important}
+ .topbar,.top-contact{font-size:10px!important}
+ .topbar-inner,.top-inner{flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){.btn,.hall-card,.room-card{transition:none!important}}
