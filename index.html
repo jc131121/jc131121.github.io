@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#1457ee">
+<meta name="theme-color" content="#F8F9F2">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
@@ -69,15 +69,15 @@
 
 <style>
 :root{
-  --blue:#1457ee;
-  --blue-dark:#1042b8;
-  --navy:#10294b;
-  --orange:#f97316;
-  --orange-dark:#ea580c;
-  --text:#243146;
-  --muted:#65748a;
-  --line:#e0e7f1;
-  --bg:#f5f8ff;
+  --blue:#507D70;
+  --blue-dark:#35594E;
+  --navy:#294B40;
+  --orange:#C18A57;
+  --orange-dark:#A16E41;
+  --text:#294B40;
+  --muted:#65786D;
+  --line:#DDE9DC;
+  --bg:#FAFBF7;
   --white:#fff;
 }
 
@@ -102,7 +102,7 @@ img{max-width:100%}
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible{
-  outline:3px solid #f59e0b;
+  outline:3px solid #B88955;
   outline-offset:3px;
 }
 
@@ -124,7 +124,7 @@ summary:focus-visible{
 
 /* 상단 안내 */
 .topbar{
-  background:#0b2145;
+  background:#294B40;
   color:white;
   font-size:13px;
 }
@@ -139,7 +139,7 @@ summary:focus-visible{
 }
 
 .topbar a{
-  color:#ffd59b;
+  color:#F4E8CF;
   font-weight:900;
   white-space:nowrap;
 }
@@ -204,7 +204,7 @@ summary:focus-visible{
 .menu-button{
   display:none;
   border:1px solid var(--line);
-  background:#f5f8ff;
+  background:#FAFBF7;
   color:var(--navy);
   border-radius:10px;
   padding:9px 13px;
@@ -216,7 +216,7 @@ summary:focus-visible{
 
 /* 메인 히어로 */
 .hero{
-  background:linear-gradient(130deg,#0c347e 0%,#1457ee 75%,#2877ff 100%);
+  background:linear-gradient(130deg,#35594E 0%,#507D70 75%,#6A9A83 100%);
   color:white;
   padding:66px 0 70px;
   position:relative;
@@ -260,7 +260,7 @@ summary:focus-visible{
 }
 
 .hero h1 em{
-  color:#ffdf9d;
+  color:#F4E8CF;
   font-style:normal;
 }
 
@@ -268,7 +268,7 @@ summary:focus-visible{
   max-width:720px;
   margin:0;
   font-size:16px;
-  color:#e6eeff;
+  color:#E3EEDC;
 }
 
 .hero-actions{
@@ -320,7 +320,7 @@ summary:focus-visible{
 .btn-outline{
   background:white;
   color:var(--blue-dark);
-  border-color:#b7c8e9;
+  border-color:#C7DDCA;
 }
 
 /* 모바일 중심 빠른 메뉴 */
@@ -359,14 +359,14 @@ summary:focus-visible{
   gap:9px;
   min-height:135px;
   padding:17px 10px;
-  background:#f1f6ff;
-  border:1px solid #dce8ff;
+  background:#F1F6EE;
+  border:1px solid #E3EEDC;
   border-radius:15px;
   text-align:center;
   transition:background .2s;
 }
 
-.quick-link:hover{background:#e1edff}
+.quick-link:hover{background:#E3EEDC}
 
 .quick-icon{
   width:57px;
@@ -481,8 +481,8 @@ summary:focus-visible{
 }
 
 .region-link:hover{
-  background:#eaf2ff;
-  border-color:#9ebcff;
+  background:#F1F6EE;
+  border-color:#BBD5C0;
 }
 
 .region-link span:last-child{
@@ -523,7 +523,7 @@ summary:focus-visible{
 }
 
 .notice{
-  background:#fff7e8;
+  background:#FBF5E9;
   border:1px solid #f5d59b;
   border-left:5px solid var(--orange);
   border-radius:12px;
@@ -533,7 +533,7 @@ summary:focus-visible{
 }
 
 .notice strong{
-  color:#9a440e;
+  color:#8D633D;
   font-size:16px;
 }
 
@@ -545,8 +545,8 @@ summary:focus-visible{
 }
 
 .trust-item{
-  background:#edf4ff;
-  border:1px solid #dbe8ff;
+  background:#EDF4E9;
+  border:1px solid #DDE9DC;
   border-radius:15px;
   padding:24px;
 }
@@ -601,7 +601,7 @@ summary:focus-visible{
 
 /* 상담 안내 */
 .service-banner{
-  background:linear-gradient(125deg,#103d9b,#1457ee);
+  background:linear-gradient(125deg,#35594E,#507D70);
   color:white;
   padding:35px;
   border-radius:19px;
@@ -614,7 +614,7 @@ summary:focus-visible{
 
 .service-banner p{
   margin:0 0 13px;
-  color:#e7efff;
+  color:#EDF4E9;
 }
 
 .action-row{
@@ -669,7 +669,7 @@ summary:focus-visible{
 .final-cta p{
   max-width:670px;
   margin:0 auto;
-  color:#dce7f7;
+  color:#DDE9DC;
 }
 
 .final-cta .action-row{
@@ -678,7 +678,7 @@ summary:focus-visible{
 
 /* 푸터 */
 .site-footer{
-  background:#0b1d32;
+  background:#294B40;
   color:#c0ccdc;
   padding:40px 0 95px;
   font-size:13px;
@@ -1027,11 +1027,34 @@ summary:focus-visible{
   html{scroll-behavior:auto}
   .btn,.quick-link{transition:none}
 }
+
+/* 2026-10-15 봄 웜톤 공통 보정: 기존 URL/내용/기능 유지 */
+:root{color-scheme:light;--warm-ivory:#FAFBF7;--warm-mint:#E3EEDC;--warm-sage:#507D70;--warm-ink:#294B40;--warm-beige:#F4E8CF}
+html,body,button,input,select,textarea{color-scheme:light}
+body{background-color:var(--warm-ivory);color:var(--warm-ink)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #A9C8B0;outline-offset:3px}
+</style>
+<style>
+/* refined spring 2026: visual layer only */
+:root{--blue:#326b55;--blue-dark:#244e3e;--navy:#263d35;--text:#263d35;--muted:#6b786f;--line:#e5e9e1;--bg:#fbfaf6;--orange:#c28d56}
+body{background:#fbfaf6;color:#263d35;letter-spacing:-.025em}
+.container{width:min(1160px,calc(100% - 40px))}
+.site-header{background:rgba(255,255,255,.96);box-shadow:0 4px 22px rgba(38,61,53,.035);border-color:#f0f0e9}
+.brand img{object-fit:contain;filter:none}.brand span{letter-spacing:-.045em;font-weight:850}
+.desktop-nav a{font-weight:700}.header-call{border-radius:999px!important;box-shadow:0 8px 24px rgba(34,82,60,.13)}
+.hero{position:relative;isolation:isolate;background:radial-gradient(circle at 89% 38%,rgba(232,218,187,.82),transparent 30%),linear-gradient(105deg,#fdfbf6 0%,#f8f4e9 52%,#e8ede1 100%);color:#263d35;overflow:hidden}
+.hero:before{content:"";position:absolute;right:-95px;bottom:-150px;width:min(52vw,570px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 37% 38%,#fffdf4 0 11%,#e4e9d7 12% 23%,#fff9ed 24% 34%,#d5dec9 35% 42%,#f4eedc 43% 54%,transparent 55%);opacity:.65;filter:blur(7px);z-index:-1}
+.hero-inner{position:relative;padding-top:96px;padding-bottom:102px;min-height:450px}.hero-badge{display:inline-block;background:rgba(255,255,255,.72)!important;border:1px solid #e5e7d9!important;color:#6c7969!important;border-radius:999px;padding:8px 16px!important;font-weight:700!important}
+.hero h1{font-size:clamp(38px,5.2vw,68px)!important;line-height:1.24!important;letter-spacing:-.06em;color:#262e28!important;margin:23px 0 20px!important}.hero h1 em{color:#2c6a4e!important;font-style:normal}.hero-description{color:#505b52!important;font-size:clamp(15px,1.7vw,19px)!important;line-height:1.85!important;max-width:630px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.hero-actions .btn{border-radius:999px!important;padding:15px 25px!important;min-height:54px;box-shadow:0 9px 25px rgba(43,72,56,.08);font-weight:800}.hero-actions .btn-white{background:#326b55!important;border-color:#326b55!important;color:#fff!important}.hero-actions .btn-outline-white{background:rgba(255,255,255,.84)!important;border:1px solid #e8e8df!important;color:#294b40!important}
+.quick-section{position:relative;z-index:2}.quick-box{border:0!important;border-radius:24px!important;box-shadow:0 15px 50px rgba(36,63,44,.075)!important;background:#fff!important;padding:30px!important}.quick-title{color:#294b40!important;letter-spacing:-.045em}.quick-grid{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:12px!important}.quick-link{background:linear-gradient(145deg,#fafbf7,#f4f4ef)!important;border:1px solid #eff0e9!important;border-radius:18px!important;padding:25px 10px!important;transition:transform .2s,box-shadow .2s}.quick-link:hover{transform:translateY(-3px);box-shadow:0 12px 22px rgba(35,74,51,.08)}.quick-icon{background:#e5ede4!important;color:#326b55!important;border-radius:50%!important;width:55px!important;height:55px!important;display:grid!important;place-items:center;font-size:26px!important;margin:0 auto 14px!important}.quick-link strong{font-weight:850!important}
+.section{padding-top:80px!important;padding-bottom:80px!important}.section-heading h2{letter-spacing:-.055em!important}.section-soft{background:#f8f8f2!important}.region-link,.service-banner{border-radius:18px!important;box-shadow:0 6px 22px rgba(38,61,53,.045)}
+@media(max-width:850px){.quick-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.hero-inner{min-height:390px;padding-top:72px;padding-bottom:78px}}
+@media(max-width:600px){.container{width:calc(100% - 30px)}.hero-inner{min-height:0;padding-top:56px;padding-bottom:70px}.hero:before{width:310px;right:-185px;bottom:-120px;opacity:.32}.hero h1{font-size:38px!important}.hero-description br{display:none}.hero-actions{gap:9px}.hero-actions .btn{width:100%;text-align:center;justify-content:center}.quick-box{padding:19px 13px!important;border-radius:18px!important}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.quick-link{padding:20px 7px!important}.quick-icon{width:46px!important;height:46px!important;font-size:23px!important}.section{padding-top:52px!important;padding-bottom:52px!important}}
 </style>
 </head>
 
 <body>
-
 <a class="skip-link" href="#main">본문으로 바로가기</a>
 
 <!-- 상단 -->
@@ -1061,11 +1084,12 @@ summary:focus-visible{
       <a href="/funeral-hall/incheon/">장례식장 찾기</a>
       <a href="/incheon-funeral-cost/">장례비용</a>
       <a href="/incheon-funeral-service/">상조서비스</a>
-      <a href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">장례절차</a>
+      <a href="/funeral-procedure/">장례절차</a>
+      <a href="/sangjo-compare/">99만원 상조 비교</a>
     </nav>
 
     <a class="header-call" href="tel:16662728">
-      ☎ 24시간 상담
+      ☎ 상담 문의
     </a>
 
     <button
@@ -1084,8 +1108,9 @@ summary:focus-visible{
     <a href="/funeral-hall/incheon/">장례식장 찾기</a>
     <a href="/incheon-funeral-cost/">장례비용</a>
     <a href="/incheon-funeral-service/">상조서비스</a>
-    <a href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">장례절차</a>
-    <a href="tel:16662728">☎ 24시간 장례상담</a>
+    <a href="/funeral-procedure/">장례절차</a>
+    <a href="/sangjo-compare/">99만원 상조 비교</a>
+    <a href="tel:16662728">☎ 장례 상담</a>
   </nav>
 </header>
 
@@ -1098,23 +1123,22 @@ summary:focus-visible{
     </span>
 
     <h1 id="hero-title">
-      장례 준비,<br>
-      <em>먼저 제대로 알아보세요.</em>
+      처음이라도<br>
+      <em>걱정하지 마세요.</em>
     </h1>
 
     <p class="hero-description">
-      인천 장례식장 비용과 빈소 정보를 비교하고,
-      장례절차와 상조서비스를 확인하세요.<br>
-      서로이음상조가 필요한 정보를 먼저 알려드립니다.
+      장례 절차부터 비용, 장례식장 선택까지<br>
+      한눈에 확인하고 가족에게 맞는 방법을 찾아보세요.
     </p>
 
     <div class="hero-actions">
-      <a class="btn btn-white" href="/funeral-hall/incheon/">
-        인천 장례식장 찾기 →
+      <a class="btn btn-white" href="/funeral-calculator/">
+        장례비용 계산하기 →
       </a>
 
-      <a class="btn btn-outline-white" href="/incheon-funeral-cost/">
-        장례비용 알아보기
+      <a class="btn btn-outline-white" href="/funeral-hall/incheon/">
+        장례식장 찾기
       </a>
 
       <a class="btn btn-outline-white" href="tel:16662728">
@@ -1133,31 +1157,31 @@ summary:focus-visible{
       <div class="quick-box">
 
         <h2 class="quick-title" id="quick-title">
-          어떤 정보가 필요하세요?
+          필요한 정보를 바로 확인하세요
         </h2>
 
-        <div class="quick-grid">
+        <div class="quick-grid"><a class="quick-link" href="/funeral-calculator/"><span class="quick-icon" aria-hidden="true">▦</span><strong>장례비용 계산기</strong><small>인천 31개 장례식장</small></a>
 
           <a class="quick-link" href="/funeral-hall/incheon/">
-            <span class="quick-icon" aria-hidden="true">🏥</span>
+            <span class="quick-icon" aria-hidden="true">⌂</span>
             <strong>장례식장 찾기</strong>
             <small>위치·빈소·주차</small>
           </a>
 
           <a class="quick-link" href="/incheon-funeral-cost/">
-            <span class="quick-icon" aria-hidden="true">💰</span>
+            <span class="quick-icon" aria-hidden="true">₩</span>
             <strong>장례비용</strong>
             <small>비용 항목 비교</small>
           </a>
 
           <a class="quick-link" href="/incheon-funeral-service/">
-            <span class="quick-icon" aria-hidden="true">🤝</span>
+            <span class="quick-icon" aria-hidden="true">♡</span>
             <strong>상조서비스</strong>
             <small>상품 구성 확인</small>
           </a>
 
-          <a class="quick-link" href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">
-            <span class="quick-icon" aria-hidden="true">📋</span>
+          <a class="quick-link" href="/funeral-procedure/">
+            <span class="quick-icon" aria-hidden="true">☷</span>
             <strong>장례절차</strong>
             <small>임종부터 발인까지</small>
           </a>
@@ -1293,7 +1317,7 @@ summary:focus-visible{
             빈소 준비, 입관, 발인과 화장까지
             장례 진행 순서를 확인하세요.
           </p>
-          <a class="btn btn-blue" href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">
+          <a class="btn btn-blue" href="/funeral-procedure/">
             장례절차 확인하기 →
           </a>
         </article>
@@ -1475,7 +1499,7 @@ summary:focus-visible{
       </div>
 
       <div class="action-row">
-        <a class="btn btn-blue" href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">
+        <a class="btn btn-blue" href="/funeral-procedure/">
           장례절차 자세히 알아보기 →
         </a>
       </div>
@@ -1552,7 +1576,7 @@ summary:focus-visible{
         <details class="faq-item">
           <summary>장례식장 빈소 요금은 어디서 확인하나요?</summary>
           <p>
-            <a href="/funeral-hall/incheon/" style="color:#1457ee;font-weight:900">
+            <a href="/funeral-hall/incheon/" style="color:#507D70;font-weight:900">
               인천 장례식장 안내
             </a>
             에서 지역별 장례식장을 찾아볼 수 있습니다.
@@ -1616,7 +1640,7 @@ summary:focus-visible{
       <a href="/funeral-hall/incheon/">인천 장례식장</a>
       <a href="/incheon-funeral-cost/">인천 장례비용</a>
       <a href="/incheon-funeral-service/">인천상조</a>
-      <a href="https://xn--2o2bo7m0hp2tyf39c.kr/funeral-guideprocedure">
+      <a href="/funeral-procedure/">
         장례절차
       </a>
     </nav>
