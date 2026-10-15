@@ -40,3 +40,12 @@ aside.quick#quick,button.reopen#reopen{display:none!important}
 
 /* Quiet inline progressive disclosure, accessible on touch and desktop */
 .se-more-details{display:block;margin-top:7px;font-size:inherit;line-height:inherit;color:inherit}.se-more-details summary{display:inline-flex;align-items:center;min-height:40px;padding:6px 12px;border:1px solid #cadfcd;border-radius:10px;background:#f0f6ee;color:#326b55;cursor:pointer;font-size:13px;font-weight:800;list-style:none}.se-more-details summary::-webkit-details-marker{display:none}.se-more-details summary:after{content:" ＋";font-weight:900}.se-more-details[open] summary:after{content:" −"}.se-more-details>span{display:block;padding:9px 2px 4px;color:inherit}.se-more-details summary:focus-visible{outline:3px solid #326b55;outline-offset:2px}
+
+/* Third action: cost calculator. Two primary actions + full-width calculator on mobile. */
+.se-sticky-cta .se-cta-link.calculator{background:#f4e8cf;color:#294b40!important;border:1px solid #e1d1b3}
+@media(max-width:767px){
+.se-sticky-cta .se-cta-actions{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:7px;padding-right:27px}
+.se-sticky-cta .se-cta-link.calculator{grid-column:1/-1;min-height:41px;font-size:13px}
+.se-sticky-cta .se-cta-link{min-height:44px}
+body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}
+}
