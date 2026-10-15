@@ -61,3 +61,19 @@ body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}
 .se-product-promo small{font-size:11px;color:#60766c;line-height:1.65;display:block}
 .se-product-promo a{flex:none;background:#326b55;color:white!important;text-decoration:none!important;border-radius:12px;padding:15px 20px;font-weight:800;text-align:center}
 @media(max-width:767px){.se-product-promo{margin:22px auto;padding:0 15px}.se-product-promo-inner{display:block;padding:22px 19px;border-radius:19px}.se-product-promo a{display:block;margin-top:17px;padding:14px 10px}.se-product-promo h2{font-size:22px}}
+
+/* Mobile touch and spacing refinement: shared across pages */
+@media(max-width:767px){
+.se-sticky-cta{padding:10px 12px max(12px,env(safe-area-inset-bottom));border-radius:16px 16px 0 0}
+.se-sticky-cta .se-cta-actions{gap:8px;padding-right:30px}
+.se-sticky-cta .se-cta-link{min-height:48px;padding:9px 6px;font-size:13px;line-height:1.35;word-break:keep-all}
+.se-sticky-cta .se-cta-link.calculator{min-height:44px;font-size:13px}
+.se-sticky-cta .se-cta-close{width:34px;height:44px;right:0;top:9px}
+.se-product-promo{margin:20px auto;padding:0 16px}
+.se-product-promo-inner{padding:19px 17px;border-radius:16px}
+.se-product-promo h2{font-size:20px;line-height:1.4;margin:7px 0}
+.se-product-promo p{font-size:13px;line-height:1.55}
+.se-product-promo a{min-height:46px;display:flex;align-items:center;justify-content:center;margin-top:13px;padding:10px 12px}
+body{padding-bottom:calc(132px + env(safe-area-inset-bottom))!important}
+}
+@media(max-width:370px){.se-sticky-cta .se-cta-link{font-size:12px}}
