@@ -85,3 +85,15 @@ a[aria-label^="서로이음상조를 통한 장례식장 예약 상담"]:focus-v
 
 /* Three clear actions on mobile: consultation, service package, calculator */
 @media(max-width:767px){.se-sticky-cta .se-cta-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding-right:30px}.se-sticky-cta .se-cta-link{min-height:44px;font-size:12px;padding:8px 5px;line-height:1.35}.se-sticky-cta .se-cta-link.calculator{grid-column:1 / -1;min-height:42px}.se-sticky-cta .se-cta-close{right:1px;top:8px}.se-sticky-cta{padding-top:9px;padding-bottom:max(10px,env(safe-area-inset-bottom))}body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}}
+
+/* Final approved 2 by 2 consultation layout on desktop and mobile */
+.se-sticky-cta{background:#f8faf5;color:#294b40;border:1px solid #d0dfcf;padding:17px 14px}
+.se-sticky-cta .se-cta-title{font-size:15px;text-align:center;padding-right:22px;margin-bottom:12px}
+.se-sticky-cta .se-cta-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-right:0}
+.se-sticky-cta .se-cta-link{min-height:50px;padding:9px 6px;font-size:12px;line-height:1.35;text-align:center;word-break:keep-all;border:1px solid #cbdcca}
+.se-sticky-cta .se-cta-link.call{background:#326b55;color:#fff!important;border-color:#326b55}
+.se-sticky-cta .se-cta-link.product{background:#e4efe1;color:#294b40!important}
+.se-sticky-cta .se-cta-link.calculator{background:#f7e9d0;color:#294b40!important;grid-column:auto}
+.se-sticky-cta .se-cta-close{color:#294b40;top:4px;right:4px;width:32px;height:32px}
+.se-sticky-cta .se-cta-sub,.se-sticky-cta .se-cta-note{display:none!important}
+@media(max-width:767px){.se-sticky-cta{padding:10px 12px max(10px,env(safe-area-inset-bottom));border-radius:16px 16px 0 0}.se-sticky-cta .se-cta-title{display:block;font-size:13px;text-align:left;margin:0 32px 8px 2px}.se-sticky-cta .se-cta-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding-right:0}.se-sticky-cta .se-cta-link,.se-sticky-cta .se-cta-link.product{min-height:45px;font-size:12px;padding:8px 5px}.se-sticky-cta .se-cta-link.calculator{grid-column:auto}.se-sticky-cta .se-cta-close{top:2px;right:6px}body{padding-bottom:calc(153px + env(safe-area-inset-bottom))!important}}
