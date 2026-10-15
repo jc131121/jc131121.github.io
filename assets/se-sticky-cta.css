@@ -77,3 +77,8 @@ body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}
 body{padding-bottom:calc(132px + env(safe-area-inset-bottom))!important}
 }
 @media(max-width:370px){.se-sticky-cta .se-cta-link{font-size:12px}}
+
+/* Clearly identified Seoroieum booking consultation on funeral hall pages */
+a[aria-label^="서로이음상조를 통한 장례식장 예약 상담"]{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border-radius:10px;background:#326b55;color:#fff!important;text-decoration:none!important;font-weight:800;line-height:1.35;word-break:keep-all;text-align:center}
+a[aria-label^="서로이음상조를 통한 장례식장 예약 상담"]:focus-visible{outline:3px solid #b88955;outline-offset:3px}
+@media(max-width:767px){.se-sticky-cta .se-cta-actions{grid-template-columns:1fr;padding-right:30px}.se-sticky-cta .se-cta-link.calculator{grid-column:auto}.se-sticky-cta .se-cta-link{min-height:45px}.se-sticky-cta .se-cta-link.product{font-size:14px}body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}}
