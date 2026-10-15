@@ -34,3 +34,6 @@
 /* Suppress obsolete fixed widgets so every page has one consistent CTA. */
 .quick-contact,.quick-reopen,.mobile-call-tab,.floating-contact,.floating-cta{display:none!important}
 @media(max-width:767px){.se-sticky-cta{background:#294b40;color:#fff}.se-sticky-cta .se-cta-actions{grid-template-columns:1fr 1fr}}
+
+/* Hide legacy quick contact overlays on Q&A and comparison pages */
+aside.quick#quick,button.reopen#reopen{display:none!important}
