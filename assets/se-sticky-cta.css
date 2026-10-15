@@ -97,3 +97,7 @@ a[aria-label^="서로이음상조를 통한 장례식장 예약 상담"]:focus-v
 .se-sticky-cta .se-cta-close{color:#294b40;top:4px;right:4px;width:32px;height:32px}
 .se-sticky-cta .se-cta-sub,.se-sticky-cta .se-cta-note{display:none!important}
 @media(max-width:767px){.se-sticky-cta{padding:10px 12px max(10px,env(safe-area-inset-bottom));border-radius:16px 16px 0 0}.se-sticky-cta .se-cta-title{display:block;font-size:13px;text-align:left;margin:0 32px 8px 2px}.se-sticky-cta .se-cta-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding-right:0}.se-sticky-cta .se-cta-link,.se-sticky-cta .se-cta-link.product{min-height:45px;font-size:12px;padding:8px 5px}.se-sticky-cta .se-cta-link.calculator{grid-column:auto}.se-sticky-cta .se-cta-close{top:2px;right:6px}body{padding-bottom:calc(153px + env(safe-area-inset-bottom))!important}}
+
+/* Center the consultation widget heading on all screen sizes */
+.se-sticky-cta .se-cta-title{display:block!important;text-align:center!important;padding-left:22px!important;padding-right:22px!important;margin-left:auto!important;margin-right:auto!important}
+@media(max-width:767px){.se-sticky-cta .se-cta-title{text-align:center!important;margin:0 auto 8px!important}}
