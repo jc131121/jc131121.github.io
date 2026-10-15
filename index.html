@@ -1053,7 +1053,16 @@ body{background:#fbfaf6;color:#263d35;letter-spacing:-.025em}
 @media(max-width:600px){.container{width:calc(100% - 30px)}.hero-inner{min-height:0;padding-top:56px;padding-bottom:70px}.hero:before{width:310px;right:-185px;bottom:-120px;opacity:.32}.hero h1{font-size:38px!important}.hero-description br{display:none}.hero-actions{gap:9px}.hero-actions .btn{width:100%;text-align:center;justify-content:center}.quick-box{padding:19px 13px!important;border-radius:18px!important}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.quick-link{padding:20px 7px!important}.quick-icon{width:46px!important;height:46px!important;font-size:23px!important}.section{padding-top:52px!important;padding-bottom:52px!important}}
 </style>
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
-</head>
+<style>
+@media(max-width:767px){
+.section-heading>p:last-child:not(.section-kicker){display:none}
+.info-card>p,.trust-item>p,.step>p{display:none}
+.hero-description{max-width:31ch;margin-left:auto;margin-right:auto}
+.se-home-more{margin-top:10px;font-size:13px}
+.se-home-more summary{cursor:pointer;color:#507D70;font-weight:750}
+.se-home-more p{margin:8px 0 0;line-height:1.6}
+}
+</style></head>
 
 <body>
 <a class="skip-link" href="#main">본문으로 바로가기</a>
@@ -1706,5 +1715,5 @@ mobileNav.querySelectorAll("a").forEach(function(link){
 </script>
 
 <script src="/assets/se-sticky-cta.js?v=6" defer></script>
-</body>
+<script>(function(){function compact(){if(!matchMedia('(max-width:767px)').matches)return;document.querySelectorAll('.info-card>p,.trust-item>p,.step>p').forEach(function(p){if(p.parentNode.querySelector(':scope > .se-home-more'))return;var d=document.createElement('details'),q=document.createElement('summary');d.className='se-home-more';q.textContent='자세히 보기 +';d.appendChild(q);p.parentNode.insertBefore(d,p);d.appendChild(p)})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',compact);else compact()})();</script></body>
 </html>
