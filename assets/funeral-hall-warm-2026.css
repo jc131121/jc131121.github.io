@@ -1,0 +1,22 @@
+/* Shared 2026 warm funeral hall theme — presentation only; original prices and interactions unchanged. */
+:root{--blue:#507d70;--blue-dark:#326b55;--deep:#294b40;--navy:#294b40;--navy2:#35594e;--text:#294b40;--muted:#68796f;--line:#e3e9df;--bg:#fbfaf6;--white:#fff}
+body{background:#fbfaf6!important;color:#294b40!important}
+.topbar,.top-contact,.top:not(header):not(.top-nav){background:#edf3e8!important;color:#35594e!important}
+.topbar a,.top-contact a,.top:not(header) a{color:#326b55!important}
+.site-header,header:not(.hero):not(.section-head):not(.room-head){background:#fff!important;border-color:#e4e9df!important}
+.hero{background:linear-gradient(120deg,#e7f0e3 0%,#f6f4e9 60%,#f9f8f2 100%)!important;color:#294b40!important;padding-block:clamp(34px,5vw,62px)!important}
+.hero h1,.hero h2,.hero .eyebrow,.hero .hero-label,.hero p,.hero .sub,.hero .desc{color:#294b40!important}
+.hero .eyebrow,.hero .hero-label{color:#507d70!important}
+.btn-white{background:#326b55!important;color:white!important;border-color:#326b55!important}
+.btn-outline{border:1px solid #a7c6b1!important;color:#326b55!important;background:rgba(255,255,255,.65)!important}
+.btn-blue,.btn-primary,.hall-link,.modal-call{background:#326b55!important;color:white!important;border-color:#326b55!important}
+.quick-item,.panel,.hall-card,.room-card,.info-box,.cost-box,.stat,.notice,.section,.card,.faq,.consult,.consult-banner{border-color:#e3e9df!important;border-radius:18px}
+.quick-item,.panel,.hall-card,.room-card,.info-box,.cost-box,.stat,.card{background:#fff!important;box-shadow:0 5px 20px rgba(41,75,64,.045)!important}
+.compare-table th,.table-wrap th,table th{background:#f0f5ec!important;color:#294b40!important}
+.compare-table tbody tr:hover,table tbody tr:hover{background:#f7faf5!important}
+.price,.hall-price,.hall-tag,.hall-tags,.compare-table a{color:#326b55!important}
+.hall-tag,.hall-tags{background:#eaf3e8!important}
+.section-head h2,.panel h2,.hall-card h3,.room-card h3{color:#294b40!important}
+.breadcrumb{color:#728276!important}
+a:focus-visible,button:focus-visible{outline:3px solid #507d70;outline-offset:3px}
+@media(max-width:700px){.hero{padding-block:35px!important}.hero h1{font-size:clamp(26px,7vw,36px)!important;line-height:1.38}.wrap{padding-left:16px;padding-right:16px}.quick-item,.panel,.room-card,.info-box{border-radius:16px}}
