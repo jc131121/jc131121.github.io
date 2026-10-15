@@ -20,3 +20,36 @@ body{background:#fbfaf6!important;color:#294b40!important}
 .breadcrumb{color:#728276!important}
 a:focus-visible,button:focus-visible{outline:3px solid #507d70;outline-offset:3px}
 @media(max-width:700px){.hero{padding-block:35px!important}.hero h1{font-size:clamp(26px,7vw,36px)!important;line-height:1.38}.wrap{padding-left:16px;padding-right:16px}.quick-item,.panel,.room-card,.info-box{border-radius:16px}}
+
+/* 2026 design upgrade: shared layout, surfaces, navigation and mobile rhythm */
+:root{--warm-ivory:#fbfaf6;--warm-paper:#fffdfa;--sage:#e3eedc;--forest:#326b55;--warm-line:#e7e9e1}
+body{font-family:"Noto Sans KR","Malgun Gothic",sans-serif!important;line-height:1.68}
+.site-header,.header-inner,header:not(.hero){box-shadow:none}
+.site-header{border-bottom:1px solid var(--warm-line)!important}
+.header-inner{min-height:76px}
+.desktop-nav a{font-weight:750;color:#294b40}
+.desktop-nav a:hover,.mobile-nav a:hover{color:#326b55!important}
+.brand img,.logo img{object-fit:contain}
+.hero{position:relative;isolation:isolate;overflow:hidden;border-bottom:1px solid #e9ebe2}
+.hero:before{content:"";position:absolute;z-index:-1;right:-8%;top:-40%;width:55%;height:160%;border-radius:50%;background:radial-gradient(ellipse at center,rgba(208,224,193,.62),rgba(247,240,222,.25) 48%,transparent 71%);pointer-events:none}
+.hero .wrap{position:relative}
+.hero h1{font-weight:850!important;letter-spacing:-.055em!important;line-height:1.34!important;max-width:900px}
+.hero p{font-size:clamp(14px,1.5vw,17px);line-height:1.85}
+.hero-actions,.hero-buttons{gap:12px!important;margin-top:26px!important}
+.btn{border-radius:999px!important;min-height:45px;padding:12px 22px!important;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(41,75,64,.12)}
+.quick-guide,.cards,.hall-grid,.info-grid,.stats,.cost-grid{gap:16px!important}
+.quick-item,.hall-card,.room-card,.info-box,.stat,.cost-box{transition:box-shadow .2s,transform .2s}
+.quick-item:hover,.hall-card:hover,.room-card:hover{box-shadow:0 12px 30px rgba(41,75,64,.09)!important}
+.panel,.section{background:var(--warm-paper)!important}
+.panel{padding:clamp(18px,3vw,30px)!important}
+.section-head h2{letter-spacing:-.045em!important}
+.hall-card h3{font-weight:850!important}
+.compare-scroll,.table-wrap{border:1px solid #e3e9df!important;border-radius:14px!important;overflow-x:auto}
+.compare-table th,.table-wrap th{font-weight:800!important}
+.compare-table td,.table-wrap td{border-color:#e9eee6!important}
+.consult-banner,.consult{background:linear-gradient(110deg,#e7f0e3,#f6f0e4)!important;color:#294b40!important}
+.consult-banner h2,.consult h2,.consult-banner p,.consult p{color:#294b40!important}
+footer{background:#294b40!important;color:#f5f6f0!important}
+footer a{color:#e3eedc!important}
+@media(max-width:760px){.hero:before{width:95%;right:-50%;opacity:.5}.hero h1{max-width:100%}.hero-actions,.hero-buttons{display:flex;flex-wrap:wrap}.hero-actions .btn,.hero-buttons .btn{min-height:46px}.quick-guide,.hall-grid,.cards,.stats,.cost-grid{grid-template-columns:1fr!important}.header-inner{min-height:66px}.panel{margin-bottom:18px!important}.compare-scroll,.table-wrap{max-width:100%}}
