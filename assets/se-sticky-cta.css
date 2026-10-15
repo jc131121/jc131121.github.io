@@ -49,3 +49,15 @@ aside.quick#quick,button.reopen#reopen{display:none!important}
 .se-sticky-cta .se-cta-link{min-height:44px}
 body{padding-bottom:calc(119px + env(safe-area-inset-bottom))!important}
 }
+
+/* Subtle, mobile-first product highlight; does not obscure essential information. */
+.se-product-promo{box-sizing:border-box;max-width:1100px;margin:30px auto;padding:0 16px;font-family:inherit;color:#294b40}
+.se-product-promo *{box-sizing:border-box}
+.se-product-promo-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(125deg,#e3eedc,#faf7ec);border:1px solid #d5e2d0;border-radius:24px;padding:28px 32px}
+.se-product-promo .se-promo-eyebrow{font-size:12px;color:#507d70;font-weight:850}
+.se-product-promo h2{font-size:clamp(21px,2.5vw,29px);line-height:1.4;margin:8px 0;color:#294b40}
+.se-product-promo h2 strong{color:#326b55}
+.se-product-promo p{font-size:14px;margin:0 0 8px;color:#385e4e}
+.se-product-promo small{font-size:11px;color:#60766c;line-height:1.65;display:block}
+.se-product-promo a{flex:none;background:#326b55;color:white!important;text-decoration:none!important;border-radius:12px;padding:15px 20px;font-weight:800;text-align:center}
+@media(max-width:767px){.se-product-promo{margin:22px auto;padding:0 15px}.se-product-promo-inner{display:block;padding:22px 19px;border-radius:19px}.se-product-promo a{display:block;margin-top:17px;padding:14px 10px}.se-product-promo h2{font-size:22px}}
