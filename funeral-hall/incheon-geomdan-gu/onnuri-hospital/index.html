@@ -877,6 +877,10 @@
     }
   
 /* spring-hall-theme-2026 */:root{color-scheme:light}html,body,input,button{color-scheme:light}body{background:#fafbf7;color:#294b40}
+
+/* 상세페이지 가독성 통일: PC 및 모바일 */
+@media (min-width: 769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media (max-width: 768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -1380,7 +1384,7 @@
       <li>
         <strong>빈소 크기:</strong>
         제공자료에 평수가 없으므로
-        실제 빈소 면적과 수용규모를 확인합니다.
+        실제 빈소 평형과 수용규모를 확인합니다.
       </li>
       <li>
         <strong>시설비:</strong>
@@ -1567,7 +1571,6 @@
     <p>
       대표전화:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
 
     <p>개인정보 책임관리자: 박종찬</p>
