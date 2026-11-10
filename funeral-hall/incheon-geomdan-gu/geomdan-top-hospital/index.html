@@ -98,7 +98,7 @@
         "name": "검단탑병원장례식장 빈소 사용료는 얼마인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "제공된 시설자료 기준 35평 3호실은 24시간 576,000원, 50평 5호실은 768,000원, 80평 특1호실과 특2호실은 각각 960,000원입니다."
+          "text": "제공된 시설자료 기준 35평형 3호실은 24시간 576,000원, 50평형 5호실은 768,000원, 80평형 특1호실과 특2호실은 각각 960,000원입니다."
         }
       },
       {
@@ -891,6 +891,10 @@
     }
   
 /* spring-hall-theme-2026 */:root{color-scheme:light}html,body,input,button{color-scheme:light}body{background:#fafbf7;color:#294b40}
+
+/* 상세페이지 가독성 통일: PC 및 모바일 */
+@media (min-width: 769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media (max-width: 768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -1087,7 +1091,7 @@
 
     <p>
       제공된 시설자료 기준 빈소는 총 4개이며,
-      <strong>35평·50평·80평</strong> 규모로 구성되어 있습니다.
+      <strong>35평형·50평형·80평형</strong> 규모로 구성되어 있습니다.
     </p>
 
     <p>
@@ -1146,25 +1150,25 @@
         <tbody>
           <tr>
             <td>특1호실</td>
-            <td>80평</td>
+            <td>80평형</td>
             <td>40,000원</td>
             <td class="price">960,000원</td>
           </tr>
           <tr>
             <td>특2호실</td>
-            <td>80평</td>
+            <td>80평형</td>
             <td>40,000원</td>
             <td class="price">960,000원</td>
           </tr>
           <tr>
             <td>3호실</td>
-            <td>35평</td>
+            <td>35평형</td>
             <td>24,000원</td>
             <td class="price">576,000원</td>
           </tr>
           <tr>
             <td>5호실</td>
-            <td>50평</td>
+            <td>50평형</td>
             <td>32,000원</td>
             <td class="price">768,000원</td>
           </tr>
@@ -1437,7 +1441,7 @@
       </li>
       <li>
         <strong>빈소 크기와 사용료:</strong>
-        35평, 50평, 80평 중 조문객 규모와
+        35평형, 50평형, 80평형 중 조문객 규모와
         예산에 맞는 호실을 비교합니다.
       </li>
       <li>
@@ -1489,7 +1493,7 @@
     </div>
 
     <div class="faq-item">
-      <strong>Q. 80평 빈소 사용료는 얼마인가요?</strong>
+      <strong>Q. 80평형 빈소 사용료는 얼마인가요?</strong>
       특1호실과 특2호실은 각각
       24시간 기준 960,000원입니다.
     </div>
@@ -1593,7 +1597,6 @@
     <p>
       대표전화:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
 
     <p>개인정보 책임관리자: 박종찬</p>
