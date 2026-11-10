@@ -784,6 +784,10 @@ button:focus-visible {
 }
 
 /* spring-hall-theme-2026 */:root{color-scheme:light}html,body,input,button{color-scheme:light}body{background:#fafbf7;color:#294b40}
+
+/* PC/mobile typography */
+@media(min-width:769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media(max-width:768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -907,8 +911,8 @@ button:focus-visible {
     </div>
 
     <div class="stat">
-      <span>빈소 면적</span>
-      <strong>50~136평</strong>
+      <span>빈소 평형</span>
+      <strong>50~136평형</strong>
     </div>
 
     <div class="stat">
@@ -945,10 +949,7 @@ button:focus-visible {
           <a href="tel:16662728" aria-label="서로이음상조를 통한 장례식장 예약 상담 전화 1666-2728">장례식장 예약 상담하기</a><small style="display:block;font-size:12px;font-weight:400">서로이음상조 연결 · 1666-2728</small>
         </p>
 
-        <p>
-          <strong>팩스:</strong>
-          제공자료에 없음
-        </p>
+        
       </div>
 
       <div class="info-box">
@@ -956,7 +957,7 @@ button:focus-visible {
 
         <p><strong>빈소:</strong> 총 5실</p>
         <p><strong>빈소 구성:</strong> 201호·202호·203호·VIP실·VVIP실</p>
-        <p><strong>면적:</strong> 50평~136평</p>
+        <p><strong>면적:</strong> 50평형~136평형</p>
         <p><strong>안치능력:</strong> 10구</p>
         <p><strong>주차:</strong> 100대</p>
       </div>
@@ -985,35 +986,35 @@ button:focus-visible {
 
     <div class="room-grid">
       <div class="room-card">
-        <span>50평 · 201호</span>
+        <span>50평형 · 201호</span>
         <h3>201호</h3>
         <strong>624,000원</strong>
         <small>24시간 사용료</small>
       </div>
 
       <div class="room-card">
-        <span>65평 · 202호</span>
+        <span>65평형 · 202호</span>
         <h3>202호</h3>
         <strong>984,000원</strong>
         <small>24시간 사용료</small>
       </div>
 
       <div class="room-card">
-        <span>60평 · 203호</span>
+        <span>60평형 · 203호</span>
         <h3>203호</h3>
         <strong>984,000원</strong>
         <small>24시간 사용료</small>
       </div>
 
       <div class="room-card">
-        <span>118평 · VIP실</span>
+        <span>118평형 · VIP실</span>
         <h3>VIP실</h3>
         <strong>1,200,000원</strong>
         <small>24시간 사용료</small>
       </div>
 
       <div class="room-card">
-        <span>136평 · VVIP실</span>
+        <span>136평형 · VVIP실</span>
         <h3>VVIP실</h3>
         <strong>1,440,000원</strong>
         <small>24시간 사용료</small>
@@ -1027,7 +1028,7 @@ button:focus-visible {
         <thead>
           <tr>
             <th>빈소</th>
-            <th>면적</th>
+            <th>평형</th>
             <th>사용 기준</th>
             <th>24시간 사용료</th>
           </tr>
@@ -1036,35 +1037,35 @@ button:focus-visible {
         <tbody>
           <tr>
             <td>201호</td>
-            <td>50평</td>
+            <td>50평형</td>
             <td>24시간</td>
             <td class="price">624,000원</td>
           </tr>
 
           <tr>
             <td>202호</td>
-            <td>65평</td>
+            <td>65평형</td>
             <td>24시간</td>
             <td class="price">984,000원</td>
           </tr>
 
           <tr>
             <td>203호</td>
-            <td>60평</td>
+            <td>60평형</td>
             <td>24시간</td>
             <td class="price">984,000원</td>
           </tr>
 
           <tr>
             <td>VIP실</td>
-            <td>118평</td>
+            <td>118평형</td>
             <td>24시간</td>
             <td class="price">1,200,000원</td>
           </tr>
 
           <tr>
             <td>VVIP실</td>
-            <td>136평</td>
+            <td>136평형</td>
             <td>24시간</td>
             <td class="price">1,440,000원</td>
           </tr>
@@ -1111,7 +1112,7 @@ button:focus-visible {
         <tbody>
           <tr>
             <td>안치실</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
             <td>요금 미확인</td>
           </tr>
 
@@ -1192,17 +1193,17 @@ button:focus-visible {
 
           <tr>
             <td>무료 적용시간</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td>차량등록 방법</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td>추가요금 발생조건</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
         </tbody>
       </table>
@@ -1400,7 +1401,7 @@ button:focus-visible {
 
     <ol class="checklist">
       <li>현재 이용 가능한 201호·202호·203호·VIP실·VVIP실을 확인합니다.</li>
-      <li>예상 조문객 수에 맞는 빈소 면적을 확인합니다.</li>
+      <li>예상 조문객 수에 맞는 빈소 평형을 확인합니다.</li>
       <li>빈소 사용시간과 추가요금 정산기준을 확인합니다.</li>
       <li>안치실 이용료와 실제 안치 가능 여부를 확인합니다.</li>
       <li>입관실 사용료에 포함되는 세부 항목을 확인합니다.</li>
@@ -1429,13 +1430,13 @@ button:focus-visible {
 
     <div class="faq">
       <strong>Q. 가장 낮은 빈소 사용료는 얼마인가요?</strong>
-      201호(50평)의 24시간 사용료가
+      201호(50평형)의 24시간 사용료가
       624,000원입니다.
     </div>
 
     <div class="faq">
       <strong>Q. 가장 큰 빈소는 몇 평인가요?</strong>
-      제공자료 기준 VVIP실이 136평입니다.
+      제공자료 기준 VVIP실이 136평형입니다.
       24시간 사용료는 1,440,000원입니다.
     </div>
 
@@ -1551,7 +1552,6 @@ button:focus-visible {
     <p>
       대표전화:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
 
     <p>개인정보 책임관리자: 박종찬</p>

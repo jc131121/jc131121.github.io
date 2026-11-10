@@ -88,7 +88,7 @@
       "name": "인천한림병원장례식장 빈소 사용료는 얼마인가요?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "제공자료에 기재된 빈소 사용료는 특7호실 960,000원부터 VIP1호실과 VIP2호실 1,500,000원까지입니다. 금액의 24시간 적용 여부는 확인이 필요합니다."
+        "text": "제공자료에 기재된 빈소 사용료는 특7호실 960,000원부터 VIP1호실과 VIP2호실 1,500,000원까지입니다. 금액의 1일(24시간) 기준입니다."
       }
     },
     {
@@ -623,6 +623,10 @@ a:focus-visible,button:focus-visible{
 
 /* spring-hall-theme-2026 */
 :root{color-scheme:light}html,body,input,button,select{color-scheme:light}body{background-color:#fafbf7;color:#294b40}
+
+/* 상세페이지 가독성 통일: PC 및 모바일 */
+@media (min-width: 769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media (max-width: 768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -797,42 +801,42 @@ a:focus-visible,button:focus-visible{
         <span class="room-name">특7호실</span>
         <strong class="room-size">70평형</strong>
         <strong class="room-price">960,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
 
       <div class="room-card">
         <span class="room-name">VIP3호실</span>
         <strong class="room-size">75평형</strong>
         <strong class="room-price">1,400,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
 
       <div class="room-card">
         <span class="room-name">VIP5호실</span>
         <strong class="room-size">75평형</strong>
         <strong class="room-price">1,400,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
 
       <div class="room-card">
         <span class="room-name">특6호실</span>
         <strong class="room-size">90평형</strong>
         <strong class="room-price">1,200,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
 
       <div class="room-card">
         <span class="room-name">VIP1호실</span>
         <strong class="room-size">90평형</strong>
         <strong class="room-price">1,500,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
 
       <div class="room-card">
         <span class="room-name">VIP2호실</span>
         <strong class="room-size">90평형</strong>
         <strong class="room-price">1,500,000원</strong>
-        <span class="room-unit">요금 적용 기간 확인 필요</span>
+        <span class="room-unit">1일(24시간) 기준</span>
       </div>
     </div>
 
@@ -843,9 +847,9 @@ a:focus-visible,button:focus-visible{
         <thead>
           <tr>
             <th scope="col">빈소</th>
-            <th scope="col">면적</th>
+            <th scope="col">평형</th>
             <th scope="col">제공 금액</th>
-            <th scope="col">24시간 적용 여부</th>
+            <th scope="col">적용시간</th>
           </tr>
         </thead>
         <tbody>
@@ -853,50 +857,46 @@ a:focus-visible,button:focus-visible{
             <td>VIP1호실</td>
             <td>90평형</td>
             <td class="price">1,500,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
           <tr>
             <td>VIP2호실</td>
             <td>90평형</td>
             <td class="price">1,500,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
           <tr>
             <td>VIP3호실</td>
             <td>75평형</td>
             <td class="price">1,400,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
           <tr>
             <td>VIP5호실</td>
             <td>75평형</td>
             <td class="price">1,400,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
           <tr>
             <td>특6호실</td>
             <td>90평형</td>
             <td class="price">1,200,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
           <tr>
             <td>특7호실</td>
             <td>70평형</td>
             <td class="price">960,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
         </tbody>
       </table>
     </div>
 
     <div class="notice-yellow">
-      <strong>빈소료는 24시간 기준 확인이 필요합니다.</strong>
+      <strong>빈소 사용료는 1일(24시간) 기준입니다.</strong>
       <p>
-        보내주신 최신 자료에는 호실별 금액은 있으나
-        시간당 또는 24시간 요금이라는 표시가 없습니다.
-        따라서 임의로 환산하지 않고 원자료 금액을 유지했습니다.
-        24시간 적용 여부와 실제 정산 방식은
-        장례식장에 확인하시기 바랍니다.
+        제공된 빈소별 금액을 1일(24시간) 기준으로 안내합니다. 실제 이용시간에 따른 정산 금액은 장례식장 약관에 따라 달라질 수 있습니다.
       </p>
     </div>
   </section>
@@ -1013,7 +1013,7 @@ a:focus-visible,button:focus-visible{
           <tr>
             <td>추가요금</td>
             <td>최초 30분 1,000원, 이후 15분당 500원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
         </tbody>
       </table>
@@ -1208,7 +1208,6 @@ a:focus-visible,button:focus-visible{
     <p>
       대표전화:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
     <p>개인정보 책임관리자: 박종찬</p>
     <p>장례상담 및 접수: 365일 24시간</p>

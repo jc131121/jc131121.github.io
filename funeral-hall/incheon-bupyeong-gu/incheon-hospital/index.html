@@ -800,6 +800,10 @@ footer {
 
 /* spring-hall-theme-2026 */
 :root{color-scheme:light}html,body,input,button,select{color-scheme:light}body{background-color:#fafbf7;color:#294b40}
+
+/* 상세페이지 가독성 통일: PC 및 모바일 */
+@media (min-width: 769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media (max-width: 768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -954,10 +958,7 @@ footer {
               <a href="tel:16662728" aria-label="서로이음상조를 통한 장례식장 예약 상담 전화 1666-2728">장례식장 예약 상담하기</a><small style="display:block;font-size:12px;font-weight:400">서로이음상조 연결 · 1666-2728</small>
             </td>
           </tr>
-          <tr>
-            <th scope="row">팩스번호</th>
-            <td>서로이음상조 1666-2728</td>
-          </tr>
+          
           <tr>
             <th scope="row">빈소 수</th>
             <td>4개</td>
@@ -1012,28 +1013,28 @@ footer {
         <tbody>
           <tr>
             <td><strong>101호실</strong></td>
-            <td>50평</td>
+            <td>50평형</td>
             <td>24시간</td>
             <td class="price">768,000원</td>
           </tr>
 
           <tr>
             <td><strong>102호실</strong></td>
-            <td>15평</td>
+            <td>15평형</td>
             <td>24시간</td>
             <td class="price">300,000원</td>
           </tr>
 
           <tr>
             <td><strong>201호실</strong></td>
-            <td>80평</td>
+            <td>80평형</td>
             <td>24시간</td>
             <td class="price">1,224,000원</td>
           </tr>
 
           <tr>
             <td><strong>202호실</strong></td>
-            <td>60평</td>
+            <td>60평형</td>
             <td>24시간</td>
             <td class="price">864,000원</td>
           </tr>
@@ -1053,8 +1054,8 @@ footer {
     <h3>빈소별 선택 기준</h3>
 
     <p>
-      102호실은 15평, 101호실은 50평,
-      202호실은 60평, 201호실은 80평으로
+      102호실은 15평형, 101호실은 50평형,
+      202호실은 60평형, 201호실은 80평형으로
       안내되어 있습니다.
       가족 규모와 예상 조문객 수에 맞춰
       빈소를 선택하는 것이 좋습니다.
@@ -1404,20 +1405,20 @@ footer {
     <div class="faq-item">
       <strong>Q. 빈소는 몇 개이며 평수는 어떻게 되나요?</strong>
       제공자료 기준 빈소는 총 4개입니다.
-      101호실 50평, 102호실 15평,
-      201호실 80평, 202호실 60평입니다.
+      101호실 50평형, 102호실 15평형,
+      201호실 80평형, 202호실 60평형입니다.
     </div>
 
     <div class="faq-item">
       <strong>Q. 가장 작은 빈소의 비용은 얼마인가요?</strong>
-      제공자료상 102호실은 15평이며
+      제공자료상 102호실은 15평형이며
       24시간 사용료는 300,000원입니다.
       실제 이용 가능 여부는 확인이 필요합니다.
     </div>
 
     <div class="faq-item">
       <strong>Q. 가장 큰 빈소의 비용은 얼마인가요?</strong>
-      제공자료상 201호실은 80평이며
+      제공자료상 201호실은 80평형이며
       24시간 사용료는 1,224,000원입니다.
     </div>
 
@@ -1528,7 +1529,6 @@ footer {
     <p>
       대표번호:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
 
     <p>

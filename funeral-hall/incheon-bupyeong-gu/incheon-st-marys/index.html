@@ -825,6 +825,10 @@ footer {
 
 /* spring-hall-theme-2026 */
 :root{color-scheme:light}html,body,input,button,select{color-scheme:light}body{background-color:#fafbf7;color:#294b40}
+
+/* 상세페이지 가독성 통일: PC 및 모바일 */
+@media (min-width: 769px){body{font-size:17px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.85}main h2,.section h2{font-size:clamp(25px,2.3vw,30px)}main h3,.section h3{font-size:21px}}
+@media (max-width: 768px){body{font-size:16px}main p,main li,main td,main th,.section p,.section li,.section td,.section th{font-size:16px;line-height:1.8}main h2,.section h2{font-size:clamp(22px,5.2vw,27px)}main h3,.section h3{font-size:19px}}
 </style>
 <link rel="stylesheet" href="/assets/funeral-hall-warm-2026.css?v=1">
 <link rel="stylesheet" href="/assets/se-sticky-cta.css?v=6">
@@ -984,10 +988,7 @@ footer {
             </td>
           </tr>
 
-          <tr>
-            <th scope="row">팩스번호</th>
-            <td>서로이음상조 1666-27282 (제공자료 기준, 확인 필요)</td>
-          </tr>
+          
 
           <tr>
             <th scope="row">빈소 수</th>
@@ -1015,11 +1016,7 @@ footer {
     </div>
 
     <p class="small-note">
-      ※ 팩스번호는 전달받은 숫자를 그대로 기재했습니다.
-      일반적인 전화번호 자릿수와 달라
-      사용 전 확인이 필요합니다.
-      장례식장 전화번호와 서로이음상조 상담번호는
-      서로 다릅니다.
+      
     </p>
 
   </section>
@@ -1050,7 +1047,7 @@ footer {
         <thead>
           <tr>
             <th scope="col">빈소</th>
-            <th scope="col">면적</th>
+            <th scope="col">평형</th>
             <th scope="col">제공자료상 금액</th>
             <th scope="col">적용 시간</th>
           </tr>
@@ -1061,49 +1058,49 @@ footer {
             <td><strong>VIP 11호실</strong></td>
             <td>462㎡</td>
             <td class="price">2,424,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>12호실</strong></td>
             <td>396㎡</td>
             <td class="price">2,136,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>1·6호실</strong></td>
             <td>280㎡</td>
             <td class="price">1,392,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>2·7호실</strong></td>
             <td>264㎡</td>
             <td class="price">1,272,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>3·8호실</strong></td>
             <td>214㎡</td>
             <td class="price">960,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>5·9호실</strong></td>
             <td>165㎡</td>
             <td class="price">720,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
 
           <tr>
             <td><strong>10호실</strong></td>
             <td>82㎡</td>
             <td class="price">312,000원</td>
-            <td>확인 필요</td>
+            <td>1일(24시간)</td>
           </tr>
         </tbody>
       </table>
@@ -1408,12 +1405,7 @@ footer {
     </div>
 
     <div class="highlight">
-      기존 페이지에는 음식비 180만원,
-      매점 비용 40만원,
-      제단장식 100만원 등의 예상 예시가 있었지만,
-      이번 자료에는 해당 금액의
-      최신 근거가 포함되어 있지 않습니다.
-      따라서 확정 요금처럼 표시하지 않았습니다.
+      음식비용은 1인 평균 3만원이며 최소 주문 단위는 50인분입니다. 장례식장에 따라 30인분도 가능한 곳이 있으며, 제단장식은 평균적으로 600,000원~800,000원 정도입니다. 실제 비용은 장례식장과 선택 구성에 따라 달라질 수 있습니다.
     </div>
 
   </section>
@@ -1426,9 +1418,7 @@ footer {
     </h2>
 
     <p>
-      이번에 확인된 시설요금 중
-      <strong>이용 기준이 명시된 항목만</strong>
-      계산한 예시입니다.
+      
     </p>
 
     <div class="example-grid">
@@ -1446,11 +1436,7 @@ footer {
     </div>
 
     <div class="highlight">
-      <strong>전체 장례비용 계산과는 다릅니다.</strong><br>
-      빈소별 금액의 적용 시간이 확인되지 않아
-      빈소료를 포함한 예상 총액은 산출하지 않았습니다.
-      음식비, 제단장식, 상조서비스,
-      화장 및 장지 비용 등도 별도입니다.
+      
     </div>
 
   </section>
@@ -1483,8 +1469,7 @@ footer {
       장례식장 빈소·안치실·입관실 등 시설비와
       음식비, 화장·장지 비용까지 모두 포함한
       장례 총비용이 아닙니다.
-      실제 제공 항목과 추가 비용 조건은
-      상품 구성에서 확인하시기 바랍니다.
+      
     </div>
 
     <div class="seo-links">
@@ -1684,7 +1669,6 @@ footer {
     <p>
       대표번호:
       <a href="tel:16662728">1666-2728</a>
-      | 팩스: 05서로이음상조 1666-2728
     </p>
 
     <p>
